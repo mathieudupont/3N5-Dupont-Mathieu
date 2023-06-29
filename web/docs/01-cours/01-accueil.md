@@ -1,0 +1,138 @@
+---
+title: Rencontre 1.1
+description : Accueil et intro à Java
+---
+
+# Semaine 1 : Introduction à Java et environnement de développement
+
+:::danger Semaine type
+
+Chaque semaine, il y a du travail préparatoire à faire pour découvrir le contenu (page web, vidéos et/ou d'exercices). Cela représente environ 2 heures de travail.
+
+Pendant les séances en classe, il y aura...
+
+- Discussion sur le contenu
+- Démos supplémentaires
+- Exercices
+- Travaux personnels (TP)
+
+:::
+
+:::note Semaine 1
+
+#### Contenu
+
+- Application : architecture, exceptions, robustesse et tests automatisés
+- Java comme langage, Android comme plateforme
+Plan de cours et logistique
+
+#### Évaluations et date
+
+- Politique concernant les absences non justifiées
+- Politique concernant le plagiat
+
+#### Théorie (voir les vidéos)
+
+- Installer l'IDE pour Java (Intellij IDEA)
+- Première classe Java
+- Point d'arrêt et débogueur
+- Configuration d'exécution et .idea
+- Ajouter une librairie dans MAVEN
+
+:::
+
+:::tip Vidéos de la matière
+
+<Video url="https://youtu.be/mu2-0jfpmxc"/>
+
+<Video url="https://youtu.be/UsdhEb-7kec"/>
+
+<Video url="https://youtu.be/NHZJdK_6dA8"/>
+
+:::
+
+:::tip Installation
+
+<Video url="https://youtu.be/b7MgJDd1Iks"/>
+
+<Video url="https://youtu.be/aWd160BjRYE"/>
+
+:::
+
+:::info À faire
+
+- Se familiariser avec l'environnement de développement
+- Compléter les exercices de la semaine
+- Commencer le **[premier travail](tp/tp1)** (création du projet, création de la classe pour l'application, exécution et débogue).
+
+:::
+
+## Exercices de la semaine
+
+### Exercice Bonjour Java
+
+Tu dois créer un projet Java au format Maven dont le nom de package de base est **org.nomdefamille.demo** en changeant le nom de famille.
+
+Créer 2 classes exécutables (avec un main qui suit la convention Java). La première s'appelle **NomDeFamille.java** et affiche "Bonjour Nom de famille" à l'exécution.
+
+La deuxième classe exécutable s'appelle **PrenomDuProf.java** et affiche "Salut prénom du prof" à l'exécution.
+
+### Exercice Triangle
+
+Reproduisez un triangle en prenant sa hauteur par un argument de ligne de commandes.
+
+```
+*
+**
+***
+****
+```
+
+Indications
+
+- La méthode qui permet de transformer une chaîne de caractères en entier est une méthode statique de la classe Integer.
+- Pour afficher un caractère sans sauter de ligne, System.out.print()
+
+### Exercice librairie JSOUP
+
+Tu dois créer un projet Java au format Maven dont le nom est DemoJSoup.
+
+Tu dois inclure JSoup dans les dépendances de ton projet dans le pom.xml.
+
+Tu dois créer une classe exécutable appelée **SuperDuperDemo.java**. Dedans tu copieras un des exemples que tu trouves sur la page de JSOUP [https://jsoup.org/](https://jsoup.org/) et tu démontreras la bonne exécution.
+
+## Défi semaine 1 (optionnel)
+
+### Exercice UnUn
+
+Tu dois programmer une méthode qui transforme une String en une autre String:
+
+```java
+static String unUn(String source){}
+```
+
+Par exemple, si la source est "111213", on compte le nombre de chiffres identiques
+
+source commence par "111" ce qui va donner 3 fois 1, soit "31"
+"2" va donner 1 fois 2 donc "12"
+"1" va donner 1 fois 1 donc "11"
+"3" va donner 1 fois 2 donc "13"
+Le résultat de "111213" serait donc "31121113"
+
+Exercice UnUnSequence
+Tu programmes une méthode qui affiche une séquence de n String partant du paramètre source.
+
+static void sequence(String source, int longueur){}
+Par exemple, pour sequence("1", 6) donne
+
+1
+11
+21
+1211
+111221
+312211
+Tu produis des programmes exécutables pour répondre aux questions suivantes:
+
+Quel est le chiffre le plus haut qu'on peut atteindre en partant de "1"? Par exemple dans les 100 000 premiers éléments.
+Est-ce qu'il arrive que le résultat de unUn soit plus court que la source? Si oui donne un exemple.
+
