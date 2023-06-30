@@ -6,7 +6,7 @@ slug: /
 
 Bienvenu au cours de 3N5 - Programmation 3 ! Dans ce cours tu apprendras à coder en Java, utiliser des librairies, et créer tes propres applications Android.
 
-Le contenu des cours ainsi que les énoncées de TP sont disponibles dans les onglets **[Cours](tp/tp1)** et **[Travaux Pratiquess](cours/rencontre1.1)**.
+Le contenu des cours ainsi que les énoncées de TP sont disponibles dans les onglets **[Cours](cours/accueil)** et **[Travaux Pratiquess](tp/tp1)**.
 
 D'ici le premier cours, tu peux déjà commencer à regarder les vidéos du cours 1 et prendre connaissance des informations ci-bas.
 
