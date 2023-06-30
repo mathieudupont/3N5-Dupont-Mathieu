@@ -1,9 +1,49 @@
 ---
-title: Rencontre 1.1
-description : Accueil et intro à Java
+title: Accueil
+description: Accueil et intro à Java
+hide_table_of_contents: true
 ---
 
 # Semaine 1 : Introduction à Java et environnement de développement
+
+<Row>
+
+<Column>
+
+## Contenu
+
+- Application : architecture, exceptions, robustesse et tests automatisés
+- Java comme langage, Android comme plateforme
+  Plan de cours et logistique
+
+</Column>
+
+<Column>
+
+## Évaluations et date
+
+- Politique concernant les absences non justifiées
+- Politique concernant le plagiat
+
+</Column>
+
+<Column>
+
+## Théorie (voir les vidéos)
+
+- Installer l'IDE pour Java (Intellij IDEA)
+- Première classe Java
+- Point d'arrêt et débogueur
+- Configuration d'exécution et .idea
+- Ajouter une librairie dans MAVEN
+
+</Column>
+
+</Row>
+
+<Row>
+
+<Column>
 
 :::danger Semaine type
 
@@ -18,28 +58,9 @@ Pendant les séances en classe, il y aura...
 
 :::
 
-:::note Semaine 1
+</Column>
 
-#### Contenu
-
-- Application : architecture, exceptions, robustesse et tests automatisés
-- Java comme langage, Android comme plateforme
-Plan de cours et logistique
-
-#### Évaluations et date
-
-- Politique concernant les absences non justifiées
-- Politique concernant le plagiat
-
-#### Théorie (voir les vidéos)
-
-- Installer l'IDE pour Java (Intellij IDEA)
-- Première classe Java
-- Point d'arrêt et débogueur
-- Configuration d'exécution et .idea
-- Ajouter une librairie dans MAVEN
-
-:::
+<Column>
 
 :::tip Vidéos de la matière
 
@@ -59,13 +80,21 @@ Plan de cours et logistique
 
 :::
 
-:::info À faire
+</Column>
+
+<Column>
+
+:::info À faire pendant la séance
 
 - Se familiariser avec l'environnement de développement
 - Compléter les exercices de la semaine
 - Commencer le **[premier travail](tp/tp1)** (création du projet, création de la classe pour l'application, exécution et débogue).
 
 :::
+
+</Column>
+
+</Row>
 
 ## Exercices de la semaine
 
@@ -113,26 +142,33 @@ static String unUn(String source){}
 
 Par exemple, si la source est "111213", on compte le nombre de chiffres identiques
 
-source commence par "111" ce qui va donner 3 fois 1, soit "31"
-"2" va donner 1 fois 2 donc "12"
-"1" va donner 1 fois 1 donc "11"
-"3" va donner 1 fois 2 donc "13"
+- source commence par "111" ce qui va donner 3 fois 1, soit "31"
+- "2" va donner 1 fois 2 donc "12"
+- "1" va donner 1 fois 1 donc "11"
+- "3" va donner 1 fois 2 donc "13"
+
 Le résultat de "111213" serait donc "31121113"
 
-Exercice UnUnSequence
-Tu programmes une méthode qui affiche une séquence de n String partant du paramètre source.
+### Exercice UnUnSequence
 
+Tu programmes une méthode qui affiche une séquence de _n_ String partant du paramètre source.
+
+```java
 static void sequence(String source, int longueur){}
-Par exemple, pour sequence("1", 6) donne
+```
 
+Par exemple, pour **sequence("1", 6)** donne
+
+```
 1
 11
 21
 1211
 111221
 312211
+```
+
 Tu produis des programmes exécutables pour répondre aux questions suivantes:
 
-Quel est le chiffre le plus haut qu'on peut atteindre en partant de "1"? Par exemple dans les 100 000 premiers éléments.
-Est-ce qu'il arrive que le résultat de unUn soit plus court que la source? Si oui donne un exemple.
-
+- Quel est le chiffre le plus haut qu'on peut atteindre en partant de "1"? Par exemple dans les 100 000 premiers éléments.
+- Est-ce qu'il arrive que le résultat de unUn soit plus court que la source? Si oui donne un exemple.
