@@ -75,8 +75,23 @@ Reproduire le drapeau de l'Italie avec 3 TextView de même taille.
 
 Vous devez programmer le jeu de Tape Le Lapin.
 
-Au début du jeu, le lapin est sur une case
-Le joueur tape sur un bouton 
-S’il tape le lapin, on augmente le nombre de pafs et le lapin change de case. On affiche également un toast avec le texte POOF
-S’il rate, on compte un flop mais le lapin reste où il est
+- Au début du jeu, le lapin est sur une case
+- Le joueur tape sur un bouton 
+  - S'il tape le lapin, on augmente le nombre de pafs et le lapin change de case. On affiche également un toast avec le texte POOF
+  - S'il rate, on compte un flop mais le lapin reste où il est
  
+<Row>
+
+<Column size="6">
+
+![tape_le_lapin](_11-intro-android/Tape_le_lapin.png)
+
+</Column>
+
+<Column size="6">
+
+![tape_le_lapin_2](_11-intro-android/Tape_le_lapin2.png)
+
+</Column>
+
+</Row>
