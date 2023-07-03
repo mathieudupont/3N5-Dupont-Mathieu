@@ -12,7 +12,6 @@ Nous allons voir comment appliquer la décomposition en entités (modèle) et ac
 
 On veut une application qui permet d'aller chercher l'avis de personnes sur des films, des disques, un peu de tout. On veut pouvoir ajouter un item dans l'appli pour pouvoir entrer les avis des gens. On peut voir la liste de tous les items et pour chaque item, on veut pouvoir ajouter une évaluation (une note entre 0 et 5) ainsi que le nom de la personne. On veut aussi calculer des statistiques comme la moyenne des notes pour un item, l'écart-type ou encore le nombre de personnes ayant donné la note de 0, 1, 2, 3, 4 ou 5.
 
-
 On s'arrêtera aux signatures des méthodes d'action et aux classes de modèle.
 
 <Row>
