@@ -88,7 +88,7 @@ Pendant les séances en classe, il y aura...
 
 - Se familiariser avec l'environnement de développement
 - Compléter les exercices de la semaine
-- Commencer le **[premier travail](tp/tp1)** (création du projet, création de la classe pour l'application, exécution et débogue).
+- Commencer le **[premier travail](../tp/tp1)** (création du projet, création de la classe pour l'application, exécution et débogue).
 
 :::
 

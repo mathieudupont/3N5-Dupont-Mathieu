@@ -46,7 +46,7 @@ Exemple de Map sur une classe que nous allons définir nous même pour hashCode 
 :::info À faire pendant la séance
 
 - Compléter les exercices de la semaine
-- Continuer le **[travail pratique](tp/tp1)** (à remettre au début de la semaine prochaine)
+- Continuer le **[travail pratique](../tp/tp1)** (à remettre au début de la semaine prochaine)
 
 :::
 

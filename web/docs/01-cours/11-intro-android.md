@@ -30,6 +30,10 @@ La documentation standard d'**[Android](https://developer.android.com/index.html
 
 :::tip Vidéos
 
+<Video url="https://youtu.be/x-dQ5Sa0Ns0" />
+
+<Video url="https://youtu.be/C0eWT0a2aM8" />
+
 :::
 
 </Column>
@@ -40,7 +44,7 @@ La documentation standard d'**[Android](https://developer.android.com/index.html
 
 Vous devez compléter les exercices de la semaine.
 
-Vous travaillerez sur le [travail 2](tp/tp2).
+Vous travaillerez sur le [travail 2](../tp/tp2).
 
 :::
 

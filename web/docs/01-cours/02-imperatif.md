@@ -45,7 +45,7 @@ hide_table_of_contents: true
 :::info À faire pendant la séance
 
 - Compléter les exercices de la semaine
-- Avancer le **[premier travail](tp/tp1)**
+- Avancer le **[premier travail](../tp/tp1)**
 
 :::
 
