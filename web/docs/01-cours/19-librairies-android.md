@@ -89,7 +89,7 @@ Terminer l'exercice et travailler sur le TP3
 
 </Row>
 
-## Exercice
+:::note Exercices
 
 ### Exercice Picasso
 
@@ -98,3 +98,5 @@ Utilisez la librairie [Picasso](https://square.github.io/picasso/) ([dépendance
 Note : utilisez l'URL suivante : [https://i.imgur.com/DvpvklR.png](https://i.imgur.com/DvpvklR.png)
 
 ![picasso](_19-librairies-android/picasso.png)
+
+:::

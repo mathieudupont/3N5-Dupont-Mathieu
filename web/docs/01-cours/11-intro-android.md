@@ -52,7 +52,7 @@ Vous travaillerez sur le [travail 2](../tp/tp2).
 
 </Row>
 
-## Exercices
+:::note Exercices
 
 ### Exercice Italia
 
@@ -99,3 +99,5 @@ Vous devez programmer le jeu de Tape Le Lapin.
 </Column>
 
 </Row>
+
+:::

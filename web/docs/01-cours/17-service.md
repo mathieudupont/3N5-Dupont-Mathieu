@@ -51,7 +51,7 @@ Compléter l'exercice de la semaine les exercices de la semaine. Continuer le tr
 
 </Row>
 
-## Exercice
+:::note Exercices
 
 ### Exercice Notes
 
@@ -62,3 +62,5 @@ On cherche à réaliser une application permettant de gérer des étudiants et l
 Après la saisie de chaque nouvelle note d'étudiant, le système donne le détail de la situation de l'étudiant.
 
 Prends l'exemple suivant pour votre application. Tu dois définir le modèle de données ainsi que le service sous la forme des méthodes nécessaires.
+
+:::

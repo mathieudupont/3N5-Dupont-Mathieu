@@ -68,7 +68,7 @@ Compléter les exercices de la semaine. Continuer le travail évalué en cours.
 
 </Row>
 
-## Exercice
+:::note Exercices
 
 ### Exercice StockageDernierArret
 
@@ -91,3 +91,5 @@ Dans un nouveau projet, tu programmes la persistance suivante.
 3. Illustrer le fonctionnement de ton code avec des tests unitaires utilisant une base de données en mémoire vive.
 
 ATTENTION ! Il n'est pas nécessaire de faire une interface graphique, les tests sont suffisants
+
+:::

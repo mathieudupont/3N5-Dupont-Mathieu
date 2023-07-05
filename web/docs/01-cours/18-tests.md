@@ -60,7 +60,7 @@ Continuer le [troisième travail](../tp/tp3)
 
 </Row>
 
-## Exercice
+:::note Exercices
 
 Pour chaque exercice, vous devrez programmer des tests. Utilisez la couverture de code pour valider que le code est testé en entier.
 
@@ -117,3 +117,5 @@ List<String> collecterCourriels(String html);
 List<String> trierCourriels(List<String> courriels);
 String remplacerCourriels(String html);
 ```
+
+:::

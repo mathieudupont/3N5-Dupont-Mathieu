@@ -96,7 +96,7 @@ Pendant les séances en classe, il y aura...
 
 </Row>
 
-## Exercices de la semaine
+:::note Exercices
 
 ### Exercice Bonjour Java
 
@@ -172,3 +172,5 @@ Tu produis des programmes exécutables pour répondre aux questions suivantes:
 
 - Quel est le chiffre le plus haut qu'on peut atteindre en partant de "1"? Par exemple dans les 100 000 premiers éléments.
 - Est-ce qu'il arrive que le résultat de unUn soit plus court que la source? Si oui donne un exemple.
+
+:::

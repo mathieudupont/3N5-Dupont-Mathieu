@@ -53,7 +53,7 @@ hide_table_of_contents: true
 
 </Row>
 
-## Exercices
+:::note Exercices
 
 Le but des exercices est de découvrir Java par la pratique.
 
@@ -108,3 +108,5 @@ Crée un programme qui teste différentes conversions de type et affiche les ré
 - convertis un int en String
 - convertis un float en double
 - etc.
+
+:::

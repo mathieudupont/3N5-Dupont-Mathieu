@@ -55,7 +55,7 @@ Exemple de Map sur une classe que nous allons définir nous même pour hashCode 
 
 </Row>
 
-## Exerices
+:::note Exercices
 
 ### Exercice EcritFichier.java
 
@@ -147,3 +147,5 @@ On veut garder en mémoire les notes de nos étudiants. Après mûre réflexion,
 3. On veut ajouter un nouvel étudiant, Gino Tremblay. Il a eu 30%. Comment s'y prendrait-on?
 4. On veut ajouter une nouvelle étudiante, Mauda Sasa. Elle a eu 68%. Comment s'y prendrait-on?
 5. On veut imprimer un rapport de tous les étudiants avec leurs notes. Pour se faire, vous devrez parcourir tous les éléments de votre map. Choisissez deux implémentations différentes pour itérer dans votre structure.
+
+:::

@@ -54,7 +54,7 @@ Vous pouvez chercher les TODOS pour trouver les explications importantes
 
 </Row>
 
-## Exercice
+:::note Exercices
 
 ### Exercice TrouveLaValeur
 
@@ -183,3 +183,5 @@ public static void lireDesFichiersJohnny(){
     }
 }	
 ```
+
+:::

@@ -20,8 +20,10 @@ Vous devez regarder la demo graphique [ici](https://github.com/departement-info-
 
 :::
 
-## Exercices
+:::note Exercices
 
 ### Pas d'exercices
 
 Avance ton TP.
+
+:::

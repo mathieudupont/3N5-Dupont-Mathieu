@@ -46,7 +46,7 @@ Pas de vidéos cette semaine
 
 </Row>
 
-## Exercices
+:::note Exercices
 
 ### Exercice Jsoup
 
@@ -99,3 +99,5 @@ void testeCetteListe(List<Integer> liste){
 Le but est de voir quelle liste est la plus performante entre LinkedList, ArrayList et une dernière que vous trouverez dans la librairie suivante [GapList](http://www.magicwerk.org/page-collections-download.html).
 
 Du coup avec un *main* qui appelle la méthode testeCetteListe pour une LinkedList puis une ArrayList puis une GapList, vous aurez une bonne idée des performances respectives.
+
+:::

@@ -53,7 +53,7 @@ Compléter les exercices de la semaine. Continuerez le travail évalué en cours
 
 </Row>
 
-## Exercice
+:::note Exercices
 
 ### Exercice Bingo
 
@@ -78,3 +78,5 @@ Tu dois implanter une liste qui sera affichée sur les téléphones des particip
 Tu dois implanter un jeu où une liste de prénom classée dans un ordre aléatoire. Chaque élément a 2 boutons qui permettent de changer l’ordre dans la liste. Le joueur gagne dès que la liste est dans l’ordre alphabétique. Dans ce cas, affiche un dialogue de félicitations et mélange la liste à nouveau.
 
 ![Bingo](_14-recycler/Order.jpg)
+
+:::

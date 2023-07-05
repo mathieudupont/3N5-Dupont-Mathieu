@@ -53,7 +53,7 @@ Vous travaillerez sur le **[travail 2](../tp/tp2)**.
 
 </Row>
 
-## Exercices
+:::note Exercices
 
 ### Exercice de navigation
 
@@ -147,3 +147,5 @@ Utilise la documentation en ligne pour apprendre comment appeler un numéro de t
 
 
 </Row>
+
+:::
