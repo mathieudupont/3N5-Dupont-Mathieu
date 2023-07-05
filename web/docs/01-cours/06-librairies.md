@@ -73,7 +73,7 @@ Petite recherche, tu dois trouver une librairie qui valide si un courriel est va
 
 ### Exercice ArrayList LinkedList et GapList (externe)
 
-On vent comparer les performances de plusieurs implémentations de List quand on parle de performance pour l'insertion.
+On veut comparer les performances de plusieurs implémentations de List quand on parle de performance pour l'insertion.
 On souhaite comparer le temps d'exécution nécessaire pour:
 
 - ajouter 1000 éléments en dernière position dans la liste
