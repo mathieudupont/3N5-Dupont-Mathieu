@@ -90,7 +90,7 @@ void testeCetteListe(List<Integer> liste){
     long b = System.currentTimeMillis();
     // ajouter 1000 element en première position liste.add(0, nombre);
     long c = System.currentTimeMillis();
-    // ajouter 1000 element position au hasard liste.add(random.nextInt(liste.size()), nombre);
+    // ajouter 1000 element position au hasard liste.add(random.nextInt(liste.size() + 1), nombre);
     long d = System.currentTimeMillis();
     // afficher b-a, c-b, d-c qui sont les durées d'exécution en millisecondes
 }
