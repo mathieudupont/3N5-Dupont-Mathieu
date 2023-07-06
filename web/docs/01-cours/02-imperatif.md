@@ -76,7 +76,7 @@ Créez un tableau d’entiers tirés au hasard entre 0 et 100. Calcule la somme,
 Indications
 
 - besoin d’un objet de la classe Random pour les tirages aléatoires
-- pour trouver la documentation d’une classe, on Google javadoc nomdelaclasse, ici javadoc Random
+- pour trouver la documentation d’une classe, on Google `javadoc nomdelaclasse`, ici `javadoc Random`
 
 ### Exercice Web
 
