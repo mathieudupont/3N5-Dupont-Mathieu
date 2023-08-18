@@ -25,13 +25,13 @@ const sidebars = {
     },
     {
       type: "doc",
-      label: "3.1 - Impératif",
-      id: "cours/imperatif",
+      label: "3.1 - Exceptions",
+      id: "cours/exceptions",
     },
     {
       type: "doc",
-      label: "3.2 - Intégration",
-      id: "cours/integration-1",
+      label: "3.2 - Librairie standard",
+      id: "cours/std-lib",
     },
     {
       type: "doc",
@@ -40,19 +40,19 @@ const sidebars = {
     },
     {
       type: "doc",
-      label: "4.2 - Librairie standard",
-      id: "cours/std-lib",
-    },
-    {
-      type: "doc",
-      label: "5.1 - Librairies",
+      label: "4.2 - Librairies",
       id: "cours/librairies",
-      className: "remise-tp1",
     },
     {
       type: "doc",
-      label: "5.2 - Exceptions",
-      id: "cours/exceptions",
+      label: "5.1 - Intégration",
+      id: "cours/integration-1",
+    },
+    {
+      type: "doc",
+      label: "5.2 - Intégration",
+      id: "cours/integration-1",
+      className: "remise-tp1",
     },
     {
       type: "doc",
