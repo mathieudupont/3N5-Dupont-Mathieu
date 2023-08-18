@@ -47,6 +47,7 @@ const sidebars = {
       type: "doc",
       label: "5.1 - Librairies",
       id: "cours/librairies",
+      className: "remise-tp1",
     },
     {
       type: "doc",
@@ -60,7 +61,7 @@ const sidebars = {
     },
     {
       type: "doc",
-      label: "6.2 - Examen Intra",
+      label: "6.2 - Examen Intra (30%)",
       id: "cours/examen",
       className: "examen",
     },
@@ -99,6 +100,7 @@ const sidebars = {
       type: "doc",
       label: "10.1 - Intégration",
       id: "cours/integration-2",
+      className: "remise-tp2",
     },
     {
       type: "doc",
@@ -144,6 +146,7 @@ const sidebars = {
       type: "doc",
       label: "14.2 - Intégration",
       id: "cours/integration-3",
+      className: "remise-tp3",
     },
     {
       type: "doc",
@@ -152,7 +155,7 @@ const sidebars = {
     },
     {
       type: "doc",
-      label: "15.2 - Examen Final",
+      label: "15.2 - Examen Final (30%)",
       id: "cours/examen",
       className: "examen",
     },
