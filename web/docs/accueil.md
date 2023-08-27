@@ -10,6 +10,8 @@ Le contenu des cours ainsi que les énoncées de TP sont disponibles dans les on
 
 D'ici le premier cours, tu peux déjà commencer à regarder les vidéos du cours 1 et prendre connaissance des informations ci-bas.
 
+Au début de chaque cours, tu devras exécuter ce [script](https://github.com/departement-info-cem/scripts-mobile/tree/main) pour installer les logiciels nécessaires au cours. Pour le moment, le script est fait pour être uniquement exécuté sur les postes du CÉGEP.
+
 :::danger Plagiat
 
 Les exercices peuvent être réalisés à plusieurs. Par contre, tous les travaux **évalués** sont **INDIVIDUELS**.
