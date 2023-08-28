@@ -10,7 +10,7 @@ const sidebars = {
     },
     {
       type: "doc",
-      label: "R02 - PowerShell en ligne de commande",
+      label: "R02 - Objets et pipeline",
       id: "cours/r02",
     },
   ],
