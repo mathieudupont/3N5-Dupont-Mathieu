@@ -15,7 +15,7 @@ Cette semaine nous discuterons d'abord de comment gérer des exceptions lancées
 
 Nous discuterons du fait qu'il faut attraper l'exception quelque part si on veut éviter un crash de l'application.
 
-Finalement nous parlerons de la possibilité de définir des classes d'exceptions (il suffit d'étendre exception).
+Finalement nous parlerons de la possibilité de définir des classes d'exceptions (il suffit d'étendre la classe Exception).
 
 <Row>
 
