@@ -168,9 +168,9 @@ Par exemple, pour **sequence("1", 6)** donne
 312211
 ```
 
-Tu produis des programmes exécutables pour répondre aux questions suivantes:
+Tu produis des programmes exécutables pour répondre aux questions suivantes :
 
-- Quel est le chiffre le plus haut qu'on peut atteindre en partant de "1"? Par exemple dans les 100 000 premiers éléments.
-- Est-ce qu'il arrive que le résultat de unUn soit plus court que la source? Si oui donne un exemple.
+- Quel est le nombre le plus élevé qu'on peut atteindre en partant de "1"? Par exemple, dans les 100 000 premières itérations.
+- Est-ce qu'il peut arriver que le résultat de unUn soit plus court que la source? Si oui, donne un exemple.
 
 :::
