@@ -70,6 +70,10 @@ const config = {
             sidebarId: "tp",
             label: "Travaux Pratiques",
           },
+          {
+            label: "Installation",
+            href: `https://github.com/departement-info-cem/scripts-mobile`,
+          },
         ],
       },
       footer: {
