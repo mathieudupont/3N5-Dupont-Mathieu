@@ -71,8 +71,9 @@ const config = {
             label: "Travaux Pratiques",
           },
           {
-            label: "Installation",
+            label: "Scripts Installation",
             href: `https://github.com/departement-info-cem/scripts-mobile`,
+            position: "right",
           },
         ],
       },
