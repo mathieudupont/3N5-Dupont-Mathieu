@@ -88,6 +88,14 @@ const config = {
               },
             ],
           },
+          {
+            items: [
+              {
+                label: "Département d'informatique",
+                href: `https://info.cegepmontpetit.ca/accueil`,
+              },
+            ],
+          },
         ],
         copyright: `Copyright © ${new Date().getFullYear()}. ${
           siteConfig.nom
