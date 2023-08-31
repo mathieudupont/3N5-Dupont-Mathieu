@@ -34,6 +34,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           routeBasePath: "/",
+          editUrl: `https://github.com/departement-info-cem/${siteConfig.nomUrl}/tree/main/web`,
         },
         theme: {
           customCss: [require.resolve("./src/css/custom.css")],
@@ -97,7 +98,9 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Vincent Carrier. Tous droits réservés.`,
+        copyright: `Copyright © ${new Date().getFullYear()}. ${
+          siteConfig.nom
+        }. CÉGEP Édouard-Montpetit.`,
       },
       // Décommenter et remplir pour activer l'indexation des pages par le moteur de recherche local
       // algolia: {
@@ -110,7 +113,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-        additionalLanguages: ["csharp", "java", "dart", "powershell"],
+        additionalLanguages: ["csharp", "java", "dart"],
       },
       metadata: [
         {
