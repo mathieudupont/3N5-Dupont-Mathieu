@@ -13,6 +13,11 @@ const sidebars = {
       label: "R02 - Objets et pipeline",
       id: "cours/r02",
     },
+    {
+      type: "doc",
+      label: "R03 - Collections et types",
+      id: "cours/r03",
+    },
   ],
   tp: [
     { type: "doc", label: "TP1", id: "tp/tp1" },
