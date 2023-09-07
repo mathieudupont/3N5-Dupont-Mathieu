@@ -27,6 +27,10 @@ Vous regarderez le projet **[demo exceptions](https://github.com/departement-inf
 
 Vous pouvez chercher les TODOS pour trouver les explications importantes
 
+Lorsqu'on vous demande de chercher des TODO, vous devez télécharger le repo du cours et retrouver le code dans la hiérarchie (il se trouve sous le répertoire `code`).
+
+Pour lister les TODO dans IntelliJ : `Menu hamburger en haut à gauche > View > Tool Windows > TODO`.
+
 :::
 
 </Column>
