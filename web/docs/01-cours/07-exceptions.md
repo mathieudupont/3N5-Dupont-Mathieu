@@ -25,7 +25,7 @@ Finalement nous parlerons de la possibilité de définir des classes d'exception
 
 Vous regarderez le projet **[demo exceptions](https://github.com/departement-info-cem/3N5-Prog3/tree/master/code/Demo_Exceptions)**
 
-Vous pouvez chercher les TODOS pour trouver les explications importantes
+Vous pouvez chercher les TODO pour trouver les explications importantes.
 
 Lorsqu'on vous demande de chercher des TODO, vous devez télécharger le repo du cours et retrouver le code dans la hiérarchie (il se trouve sous le répertoire `code`).
 
