@@ -4,7 +4,7 @@ description: Exception, try catch throw throws
 hide_table_of_contents: true
 ---
 
-# Semaine 5 : Exceptions, lancer throw(s) et attraper catch
+# Semaine 3 : Exceptions, lancer throw(s) et attraper catch
 
 ## Contenu
 
