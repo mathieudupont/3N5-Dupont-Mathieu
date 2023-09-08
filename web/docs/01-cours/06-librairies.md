@@ -4,7 +4,7 @@ description: Librairies externes
 hide_table_of_contents: true
 ---
 
-# Semaine 5 : Librairies Java tierces
+# Semaine 4 : Librairies Java tierces
 
 ## Contenu
 
