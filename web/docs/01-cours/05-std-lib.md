@@ -4,7 +4,7 @@ description: Librairies standard
 hide_table_of_contents: true
 ---
 
-# Semaine 4 : Java, librairie standard
+# Semaines 3 - 4 : Java, librairie standard
 
 ## Contenu
 
