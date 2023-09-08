@@ -4,7 +4,7 @@ description: Prog. impérative
 hide_table_of_contents: true
 ---
 
-# Semaine 2 - 3 : Programmation impérative en Java
+# Semaine 2 : Programmation impérative en Java
 
 ## Contenu
 
