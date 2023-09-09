@@ -50,7 +50,7 @@ Pour lister les TODO dans IntelliJ : `Menu hamburger en haut à gauche > View > 
 :::info À faire pendant la séance
 
 - Compléter les exercices de la semaine
-- Continuer le **[premier travail](../tp/tp1)** (à remettre très bientôt)
+- Continuer le **[premier travail](../tp/tp1)**
 
 :::
 
