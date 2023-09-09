@@ -96,9 +96,9 @@ Ecris une classe avec une méthode main pour tester la méthode précédente ave
 
 ### Exercice TrouvePisCompte.java
 
-Tu dois programmer une méthode **boolean trouve(int element, List&lt;Integer&lgt; liste)** qui renvoie si la liste contient l'élément fourni.
+Tu dois programmer une méthode **boolean trouve(int element, List&lt;Integer&gt; liste)** qui renvoie si la liste contient l'élément fourni.
 
-Tu dois programmer une méthode **int compte(int element, List&lt;Integer&lgt; liste)** qui renvoie le nombre d'apparitions de l'element dans la liste.
+Tu dois programmer une méthode **int compte(int element, List&lt;Integer&gt; liste)** qui renvoie le nombre d'apparitions de l'element dans la liste.
 
 Écris un main qui permet de tester les 2 méthodes sur plusieurs exemples.
 
