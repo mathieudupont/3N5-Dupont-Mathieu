@@ -77,9 +77,9 @@ Petite recherche, tu dois trouver une librairie qui valide si un courriel est va
 On veut comparer les performances de plusieurs implémentations de List quand on parle de performance pour l'insertion.
 On souhaite comparer le temps d'exécution nécessaire pour:
 
-- ajouter 1000 éléments en dernière position dans la liste
-- ajouter 1000 éléments en première position dans la liste
-- ajouter 1000 éléments dans une position au hasard dans la liste
+- ajouter 100000 éléments en dernière position dans la liste
+- ajouter 100000 éléments en première position dans la liste
+- ajouter 100000 éléments dans une position au hasard dans la liste
 
 Pour permettre de tester plusieurs listes, on vous recommande de créer une méthode
 
