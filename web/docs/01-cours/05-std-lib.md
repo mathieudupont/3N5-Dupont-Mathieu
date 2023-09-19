@@ -109,7 +109,7 @@ Avant de commencer tu dois créer une classe Java que tu vas appeler Truc (dans 
 - un int (type entier sur 32 bits) appelé pipo
 - un String (chaîne de caractères) appelé popi
 
-Tu dois surcharger la méthodes toString de la classe Truc pour afficher les valeurs des 2 champs.
+Tu dois surcharger la méthode toString de la classe Truc pour afficher les valeurs des 2 champs.
 
 Dans ta classe exécutable (celle avec le *main*), tu dois écrire la séquence d'instructions pour :
 
