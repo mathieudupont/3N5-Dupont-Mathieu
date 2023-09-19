@@ -90,7 +90,7 @@ Tu dois programmer une méthode *triComplexe(List&lt;Integer&gt; liste)* qui ren
 - Si un nombre contient moins de '7' qu'un autre, il doit être avant dans le tri
 - Si 2 nombres ont le même nombre de 7, le plus petit devrait être avant dans la liste
 
-Par exemple, si on passe [1234, 747, 1977, -71, 17] on obtient [1234, -**7**1, 1**7**, **7**4**7**, 19**77**].
+Par exemple, si on passe [1234, 747, 77, 1977, -71, 17, 7] on obtient [1234, -**7**1, **7**, 1**7**, **77**, **7**4**7**, 19**77**].
 
 Ecris une classe avec une méthode main pour tester la méthode précédente avec plusieurs listes.
 
