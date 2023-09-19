@@ -87,11 +87,11 @@ Pour permettre de tester plusieurs listes, on vous recommande de créer une mét
 void testeCetteListe(List<Integer> liste){
     Random random = new Random(1234);
     long a = System.currentTimeMillis();
-    // ajouter 1000 element en dernière position liste.add(nombre);
+    // ajouter 100 000 elements en dernière position liste.add(nombre);
     long b = System.currentTimeMillis();
-    // ajouter 1000 element en première position liste.add(0, nombre);
+    // ajouter 100 000 elements en première position liste.add(0, nombre);
     long c = System.currentTimeMillis();
-    // ajouter 1000 element position au hasard liste.add(random.nextInt(liste.size() + 1), nombre);
+    // ajouter 100 000 elements position au hasard liste.add(random.nextInt(liste.size() + 1), nombre);
     long d = System.currentTimeMillis();
     // afficher b-a, c-b, d-c qui sont les durées d'exécution en millisecondes
 }
