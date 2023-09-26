@@ -20,4 +20,4 @@ ATTENTION : le serveur qui servait pour l'exercice 2 n'est plus fonctionnel
 ## Examen de automne 2020
 
 - [Énoncé : intra 2020](@site/static/file/intra2020/ExamenA20.docx)
-- [Fichier départ : intra 2020](@site/static/file/intra2020/ExamenA20.zip))
+- [Fichier départ : intra 2020](@site/static/file/intra2020/ExamenA20.zip)
