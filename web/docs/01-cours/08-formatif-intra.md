@@ -12,7 +12,8 @@ Nous allons passer sur une stratégie de base pour passer vos examens: [Stratég
 
 ## Examen de automne 2022
 
-- [Énoncé + fichiers départ : intra 2022](@site/static/file/intra2022/ExamenA22.zip)
+- [Énoncé : intra 2022](@site/static/file/intra2022/ExamenA22.docx)
+- [Fichier départ : intra 2022](@site/static/file/intra2022/ExamenA22.zip)
 
 ## Examen de automne 2021
 
