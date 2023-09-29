@@ -10,6 +10,10 @@ hide_table_of_contents: true
 
 Nous allons passer sur une stratégie de base pour passer vos examens: [Stratégie examen](revision)
 
+## Examen de automne 2022
+
+- [Énoncé + fichiers départ : intra 2022](@site/static/file/intra2022/ExamenA22.zip)
+
 ## Examen de automne 2021
 
 ATTENTION : le serveur qui servait pour l'exercice 2 n'est plus fonctionnel
