@@ -19,7 +19,7 @@ Nous ferons quelques exemples d'applications pour revenir sur les éléments cou
 :::danger Avant la séance (2h)
 
 - Vous devez regarder les vidéos
-- Ensuite, commencer les exercices. Vous arrêter quand vous avez complété 2 heures.
+- Ensuite, commencer les exercices. Arrêtez-vous quand vous avez complété 2 heures.
 
 :::
 
@@ -59,7 +59,7 @@ Compléter les exercices de la semaine. Continuer le travail pratique.
 
 Vous devez implanter une liste qui sera affichée sur les téléphones des participants d'un jeu de Bingo. Chaque élément de la liste doit avoir :
 
-- Le no de tirage (combien de boules ont été tirées, commence à 1)
+- Le no de tirage (combien de boules ont été tirées, on commence à 1)
 - Le numéro tiré (aléatoire entre 1 et 75)
 - La lettre du mot BINGO correspondant au chiffre (B : 1 à 15, I : 16 à 30, N : 31 à 45, G : 46 à 60, O : 61 à 75)
 
@@ -75,7 +75,7 @@ Vous devez implanter une liste qui sera affichée sur les téléphones des parti
 
 ### Exercice OrdreAlpha
 
-Vous devez implanter un jeu où une liste de prénom classée dans un ordre aléatoire. Chaque élément a 2 boutons qui permettent de changer l’ordre dans la liste. Le joueur gagne dès que la liste est dans l’ordre alphabétique. Dans ce cas, affiche un dialogue de félicitations et mélange la liste à nouveau.
+Vous devez implanter un jeu où une liste de prénoms est classée dans un ordre aléatoire. Chaque élément a 2 boutons qui permettent de changer l’ordre dans la liste. Le joueur gagne dès que la liste est dans l’ordre alphabétique. Dans ce cas, on affiche un dialogue de félicitations et on mélange la liste à nouveau.
 
 ![Bingo](_14-recycler/Order.jpg)
 
