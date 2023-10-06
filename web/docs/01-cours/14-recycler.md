@@ -19,7 +19,7 @@ Nous ferons quelques exemples d'applications pour revenir sur les éléments cou
 :::danger Avant la séance (2h)
 
 - Vous devez regarder les vidéos
-- Ensuite, commencer les exercices. Arrêtez-vous quand vous avez complété 2 heures.
+- Ensuite, commencez les exercices. Arrêtez-vous quand vous avez complété 2 heures.
 
 :::
 
