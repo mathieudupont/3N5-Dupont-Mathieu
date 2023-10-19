@@ -14,7 +14,7 @@ L'objectif est de générer un site web pour un cours le plus simplement possibl
 6. Modifiez les documents Markdown qui sont dans la répertoire `docs` selon vos besoins.
 7. Profit
 
-## Installation
+## Installation  
 
 ```
 $ npm install
