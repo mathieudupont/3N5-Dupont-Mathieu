@@ -32,21 +32,21 @@ Nous utiliserons la librairie Room pour faciliter l'utilisation de SQLite.
 
 <Video url="https://youtu.be/XMN3y8d2Dr0" />
 
-[Code après video 1](https://github.com/departement-info-cem/3N5-Prog3/tree/master/code/RoomSQL/01-Depart)
+[Code après video 1](https://github.com/departement-info-cem/3N5-Prog3/tree/main/code/RoomSQL/01-Depart)
 
 <Video url="https://youtu.be/t8O7EN61egA" />
 
-[Code après video 2](https://github.com/departement-info-cem/3N5-Prog3/tree/master/code/RoomSQL/02-RoomDebug)
+[Code après video 2](https://github.com/departement-info-cem/3N5-Prog3/tree/main/code/RoomSQL/02-RoomDebug)
 
 <Video url="https://youtu.be/SB58qEx9XBU" />
 
-[Code après video 3](https://github.com/departement-info-cem/3N5-Prog3/tree/master/code/RoomSQL/03-RoomTransaction)
+[Code après video 3](https://github.com/departement-info-cem/3N5-Prog3/tree/main/code/RoomSQL/03-RoomTransaction)
 
 <Video url="https://youtu.be/fpdADjOecTw" />
 
-[Code après video 4](https://github.com/departement-info-cem/3N5-Prog3/tree/master/code/RoomSQL/04-RoomPerformance)
+[Code après video 4](https://github.com/departement-info-cem/3N5-Prog3/tree/main/code/RoomSQL/04-RoomPerformance)
 
-**Optionnel**: vous trouverez un projet illustrant les différentes possibilités de stockage [ici](https://github.com/jorisdeguet/420406-Applications/tree/master/code/Persist).
+**Optionnel**: vous trouverez un projet illustrant les différentes possibilités de stockage [ici](https://github.com/jorisdeguet/420406-Applications/tree/main/code/Persist).
 
 Ensuite vous devez commencer les exercices . Arrêtez vous quand vous avez complété vos 2 heures.
 

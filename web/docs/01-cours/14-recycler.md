@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 Nous ferons quelques exemples d'applications pour revenir sur les éléments couverts dans la video.
 
-- [Démo](https://github.com/departement-info-cem/3N5-Prog3/tree/master/code/Demo_Graphique) d'un graphique
+- [Démo](https://github.com/departement-info-cem/3N5-Prog3/tree/main/code/Demo_Graphique) d'un graphique
 
 <Row>
 
@@ -31,11 +31,11 @@ Nous ferons quelques exemples d'applications pour revenir sur les éléments cou
 
 <Video url="https://youtu.be/nkGseYC3QAw" />
 
-[Code après video 1](https://github.com/departement-info-cem/3N5-Prog3/tree/master/code/recyclerview)
+[Code après video 1](https://github.com/departement-info-cem/3N5-Prog3/tree/main/code/recyclerview)
 
 <Video url="https://youtu.be/gtHix80YUx0" />
 
-[Code après video 2](https://github.com/departement-info-cem/3N5-Prog3/tree/master/code/recyclerview-debogage)
+[Code après video 2](https://github.com/departement-info-cem/3N5-Prog3/tree/main/code/recyclerview-debogage)
 
 :::
 

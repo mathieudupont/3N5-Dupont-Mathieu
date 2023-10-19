@@ -23,7 +23,7 @@ Finalement nous parlerons de la possibilité de définir des classes d'exception
 
 :::warning Avant la séance (2h)
 
-Vous regarderez le projet **[demo exceptions](https://github.com/departement-info-cem/3N5-Prog3/tree/master/code/Demo_Exceptions)**
+Vous regarderez le projet **[demo exceptions](https://github.com/departement-info-cem/3N5-Prog3/tree/main/code/Demo_Exceptions)**
 
 Vous pouvez chercher les TODO pour trouver les explications importantes.
 
@@ -164,7 +164,7 @@ public void etape3(){
 
 Jimmy et Johnny se chicanent depuis 10 ans. Chacun a écrit une méthode afin de lire un fichier. Jimmy dit que les deux méthodes sont équivalentes alors que Johnny dit que le résultat n'est pas le même. Qui a raison et pourquoi?
 
-Testez le [code](https://github.com/departement-info-cem/3N5-Prog3/tree/master/code/Demo_Exceptions/src/main/java/sabourin/exercices) pour démontrer si les méthodes sont pareilles ou non.
+Testez le [code](https://github.com/departement-info-cem/3N5-Prog3/tree/main/code/Demo_Exceptions/src/main/java/sabourin/exercices) pour démontrer si les méthodes sont pareilles ou non.
 
 ```java
 public static void lireDesFichiersJimmy(){

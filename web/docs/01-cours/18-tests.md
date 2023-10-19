@@ -66,7 +66,7 @@ Pour chaque exercice, vous devrez programmer des tests. Utilisez la couverture d
 
 ### Exercice Aider un ami
 
-Jimmy Jo, un étudiant de 3N5, a écrit le code [suivant](https://github.com/departement-info-cem/3N5-Prog3/tree/master/code/TestsExercice1). Modifiez son code pour respecter les règles suivantes :
+Jimmy Jo, un étudiant de 3N5, a écrit le code [suivant](https://github.com/departement-info-cem/3N5-Prog3/tree/main/code/TestsExercice1). Modifiez son code pour respecter les règles suivantes :
 
 - Classe entité : La BD assigne le ID de façon automatique
 - Test 1 (OKBD) : Lorsqu'on crée notre objet modèle, on laisse son ID Null
@@ -90,7 +90,7 @@ boolean isValidZipCode(String zippy);
 
 ### Exercice Chasse aux bogues
 
-Partir du code fourni [ici](https://github.com/departement-info-cem/3N5-Prog3/tree/master/code/TestsExercice3) et compléter les TODOs. On vous demande, autant que possible, de trouver les bogues uniquement en écrivant des tests (et non en regardant le code). Documenter ensuite le résultat du test et pourquoi il échoue.
+Partir du code fourni [ici](https://github.com/departement-info-cem/3N5-Prog3/tree/main/code/TestsExercice3) et compléter les TODOs. On vous demande, autant que possible, de trouver les bogues uniquement en écrivant des tests (et non en regardant le code). Documenter ensuite le résultat du test et pourquoi il échoue.
 
 Méthodes à tester
 

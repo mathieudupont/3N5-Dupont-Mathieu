@@ -14,9 +14,9 @@ Démo d'un graphique.
 
 :::danger Avant la séance (2h)
 
-Vous devez regarder la demo menu [ici](https://github.com/departement-info-cem/3N5-Prog3/tree/master/code/Demo_Menu).
+Vous devez regarder la demo menu [ici](https://github.com/departement-info-cem/3N5-Prog3/tree/main/code/Demo_Menu).
 
-Vous devez regarder la demo graphique [ici](https://github.com/departement-info-cem/3N5-Prog3/tree/master/code/Demo_Graphique).
+Vous devez regarder la demo graphique [ici](https://github.com/departement-info-cem/3N5-Prog3/tree/main/code/Demo_Graphique).
 
 :::
 
