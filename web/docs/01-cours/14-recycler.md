@@ -6,12 +6,6 @@ hide_table_of_contents: true
 
 # Semaine 8 - 9 : Android : affichage de listes
 
-## Contenu
-
-Nous ferons quelques exemples d'applications pour revenir sur les éléments couverts dans la video.
-
-- [Démo](https://github.com/departement-info-cem/3N5-Prog3/tree/main/code/Demo_Graphique) d'un graphique
-
 <Row>
 
 <Column>
