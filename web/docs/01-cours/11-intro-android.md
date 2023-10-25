@@ -20,7 +20,7 @@ Nous ferons quelques exemples d'applications pour revenir sur les éléments cou
 
 :::danger Avant la séance (2h)
 
-La documentation standard d'**[Android](https://developer.android.com/index.html)**(max 20 minutes).
+La documentation standard d'**[Android](https://developer.android.com/index.html)** (max 20 minutes).
 
 :::
 
