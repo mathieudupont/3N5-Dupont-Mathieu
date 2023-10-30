@@ -25,11 +25,11 @@ hide_table_of_contents: true
 
 <Video url="https://youtu.be/nkGseYC3QAw" />
 
-[Code après video 1](https://github.com/departement-info-cem/3N5-Prog3/tree/main/code/RecyclerView)
+[Code après video 1](https://github.com/departement-info-cem/3N5-Prog3/tree/main/code/recyclerview)
 
 <Video url="https://youtu.be/gtHix80YUx0" />
 
-[Code après video 2](https://github.com/departement-info-cem/3N5-Prog3/tree/main/code/RecyclerView-Debogage)
+[Code après video 2](https://github.com/departement-info-cem/3N5-Prog3/tree/main/code/RecyclerView-Deboguage)
 
 :::
 
