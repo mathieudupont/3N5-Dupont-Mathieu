@@ -5,6 +5,10 @@ hide_table_of_contents: true
 
 # Accueil
 
+<Row>
+
+<Column>
+
 Bienvenu au cours de 3N5 - Programmation 3 ! Dans ce cours tu apprendras à coder en Java, utiliser des librairies, et créer tes propres applications Android.
 
 Le contenu des cours ainsi que les énoncées de TP sont disponibles dans les onglets **[Cours](cours/accueil)** et **[Travaux Pratiquess](tp/tp1)**.
@@ -12,6 +16,10 @@ Le contenu des cours ainsi que les énoncées de TP sont disponibles dans les on
 D'ici le premier cours, tu peux déjà commencer à regarder les vidéos du cours 1 et prendre connaissance des informations ci-bas.
 
 Au début de chaque cours, tu devras exécuter ce [script](https://github.com/departement-info-cem/scripts-mobile/tree/main) pour installer les logiciels nécessaires au cours. Pour le moment, le script est fait pour être uniquement exécuté sur les postes du CÉGEP.
+
+</Column>
+
+<Column>
 
 :::danger Plagiat
 
@@ -40,3 +48,7 @@ Problèmes courants et solutions **[ICI](solutions)**
 Démonstrations du cours / Github **[ICI](https://github.com/departement-info-cem/3N5-Prog3)**
 
 :::
+
+</Column>
+
+</Row>
