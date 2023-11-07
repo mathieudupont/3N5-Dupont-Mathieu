@@ -48,7 +48,7 @@ Nous utiliserons la librairie Room pour faciliter l'utilisation de SQLite.
 
 **Optionnel**: vous trouverez un projet illustrant les différentes possibilités de stockage [ici](https://github.com/jorisdeguet/420406-Applications/tree/main/code/Persist).
 
-Ensuite vous devez commencer les exercices . Arrêtez vous quand vous avez complété vos 2 heures.
+Ensuite vous devez commencer les exercices . Arrêtez-vous quand vous avez complété vos 2 heures.
 
 :::
 
@@ -72,24 +72,24 @@ Compléter les exercices de la semaine. Continuer le travail évalué en cours.
 
 ### Exercice StockageDernierArret
 
-Dans un nouveau projet, tu programmes la persistance suivante.
+Dans un nouveau projet, programmer la persistance suivante :
 
 - Une seule activité
-- À la fermeture de l'activité (événement onPause? onStop? onDestroy? [ici](https://developer.android.com/reference/android/app/Activity.html)), l'activité sauvegarde sur l'appareil l'heure de l'arrêt.
-- Au démarrage de l'activité, on affiche dans un TextView l'heure du dernier arrêt de l'application. Au premier démarrage de l'application, on n'affiche rien mais on fait apparaître un Toast indiquant un tout premier démarrage. (tu peux supprimer l'application du périphérique pour pratiquer le premier démarrage)
+- À la fermeture de l'activité (évènement onPause? onStop? onDestroy? [ici](https://developer.android.com/reference/android/app/Activity.html)), l'activité sauvegarde sur l'appareil l'heure de l'arrêt.
+- Au démarrage de l'activité, on affiche dans un TextView l'heure du dernier arrêt de l'application. Au premier démarrage de l'application, on n'affiche rien mais on fait apparaître un Toast indiquant un tout premier démarrage. (vous pouvez supprimer l'application du périphérique pour pratiquer le premier démarrage)
 
 ### Exercice Persist
 
-1. Créer une classe entité Personne à persister avec Room avec les champs suivants:
+1. Créer une classe entité Personne à persister avec Room avec les champs suivants :
    - nom de type String
    - dateNaissance de type DateTime ([ici](https://www.joda.org/joda-time/quickstart.html))
    - sexe d'un type énuméré Sexe avec comme valeurs possibles Homme, Femme et Complexe
-2. Programmer le DAO pour avoir les opérations suivantes possibles
+2. Programmer le DAO pour avoir les opérations suivantes possibles :
    - sauver une personne
    - récupérer les personnes d'un sexe fourni en paramètre
    - récupérer toutes les personnes
-3. Illustrer le fonctionnement de ton code avec des tests unitaires utilisant une base de données en mémoire vive.
+3. Illustrer le fonctionnement de votre code avec des tests unitaires utilisant une base de données en mémoire vive.
 
-ATTENTION ! Il n'est pas nécessaire de faire une interface graphique, les tests sont suffisants
+ATTENTION ! Il n'est pas nécessaire de faire une interface graphique, les tests sont suffisants.
 
 :::
