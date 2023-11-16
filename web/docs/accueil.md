@@ -9,9 +9,9 @@ hide_table_of_contents: true
 
 <Column>
 
-Bienvenu au cours de 3N5 - Programmation 3 ! Dans ce cours tu apprendras à coder en Java, utiliser des librairies, et créer tes propres applications Android.
+Bienvenue au cours de 3N5 - Programmation 3! Dans ce cours tu apprendras à coder en Java, utiliser des librairies, et créer tes propres applications Android.
 
-Le contenu des cours ainsi que les énoncées de TP sont disponibles dans les onglets **[Cours](cours/accueil)** et **[Travaux Pratiquess](tp/tp1)**.
+Le contenu des cours ainsi que les énoncés de TP sont disponibles dans les onglets **[Cours](cours/accueil)** et **[Travaux Pratiquess](tp/tp1)**.
 
 D'ici le premier cours, tu peux déjà commencer à regarder les vidéos du cours 1 et prendre connaissance des informations ci-bas.
 
@@ -31,7 +31,7 @@ Lis les règles concernant le plagiat et les sanctions **[ici](https://info.cege
 
 :::tip Déroulement d'une semaine type
 
-Tu as du travail préparatoire pour découvrir la matière par toi-même (page web à lire, video, exercices) pour environ 2 heures de travail.
+Tu as du travail préparatoire pour découvrir la matière par toi-même (page Web à lire, vidéo, exercices) pour environ 2 heures de travail.
 
 Pendant la séance, tu dois compléter et valider tes exercices, poser des questions et compléter ton TP.
 
