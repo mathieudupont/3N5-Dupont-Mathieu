@@ -90,7 +90,7 @@ boolean isValidZipCode(String zippy);
 
 ### Exercice Chasse aux bogues
 
-Partir du code fourni [ici](https://github.com/departement-info-cem/3N5-Prog3/tree/main/code/TestsExercice3) et compléter les TODOs. On vous demande, autant que possible, de trouver les bogues uniquement en écrivant des tests (et non en regardant le code). Documenter ensuite le résultat du test et pourquoi il échoue.
+Partir du code fourni [ici](https://github.com/departement-info-cem/3N5-Prog3/tree/main/code/TestsExercice2) et compléter les TODOs. On vous demande, autant que possible, de trouver les bogues uniquement en écrivant des tests (et non en regardant le code). Documenter ensuite le résultat du test et pourquoi il échoue.
 
 Méthodes à tester
 
