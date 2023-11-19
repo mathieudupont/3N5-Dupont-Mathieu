@@ -10,11 +10,11 @@ hide_table_of_contents: true
 
 Nous reviendrons sur l'exercice Note, son service et le rôle des tests unitaires. On illustrera sur une classe et une méthode de calcul de la racine carrée.
 
-Premier élément pour exécuter le code
-Couvrir les cas fonctionnels et exceptionnels
-Limiter le temps d'exécution
-Assert pour garantir des choses dans le futur
-Calculer une couverture de code
+- Premier élément pour exécuter le code
+- Couvrir les cas fonctionnels et exceptionnels
+- Limiter le temps d'exécution
+- Assert pour garantir des choses dans le futur
+- Calculer une couverture de code
 
 <Row>
 
