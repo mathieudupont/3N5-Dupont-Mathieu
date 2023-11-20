@@ -85,8 +85,8 @@ boolean isValidZipCode(String zippy);
 
 - on accepte les minuscules et majuscules
 - les 2 blocs peuvent être séparés par 0 1 ou 2 espaces ou un tiret
-- Ok "H1Y1E1" "H1Y 1E1" "h3Y 1E8"
-- Ko "H1Y   1E1" "H1Y_1E1" "h3Y 1TO"
+- Ok : "H1Y1E1", "H1Y 1E1", "h3Y 1E8"
+- Ko : "H1Y &#8203; &#8203; &#8203; 1E1", "H1Y_1E1", "h3Y 1TO"
 
 ### Exercice Chasse aux bogues
 
