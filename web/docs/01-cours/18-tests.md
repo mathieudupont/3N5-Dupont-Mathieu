@@ -66,13 +66,11 @@ Pour chaque exercice, vous devrez programmer des tests. Utilisez la couverture d
 
 ### Exercice Aider un ami
 
-Jimmy Jo, un étudiant de 3N5, a écrit le code [suivant](https://github.com/departement-info-cem/3N5-Prog3/tree/main/code/TestsExercice1). Modifiez son code afin que les Tests 1 & 2 vérifient correctement qu'un ID a été généré automatiquement, en effectuant les modifications suivantes :
+Jimmy Jo, un étudiant de 3N5, a écrit le code [suivant](https://github.com/departement-info-cem/3N5-Prog3/tree/main/code/TestsExercice1). Modifiez son code afin que les **Tests 1 & 2 vérifient correctement qu'un ID a été généré automatiquement**, en effectuant les modifications suivantes :
 
 - Classe entité : La BD assigne le ID de façon automatique
 - Test 1 (OKBD) : Lorsqu'on crée notre objet modèle, on laisse son ID Null
 - Service : Lance une exception quand il reçoit une personne avec un id ajouté manuellement
-  
-- Tests 1 & 2 : Vérifient correctement qu'un ID a été généré automatiquement
 
 ### Exercice CodePostal
 
@@ -86,9 +84,8 @@ boolean isValidZipCode(String zippy);
 
 - on accepte les minuscules et majuscules
 - les 2 blocs peuvent être séparés par 0 1 ou 2 espaces ou un tiret
-- Ok : "`H1Y1E1`", "`H1Y 1E1`", "`h3Y 1E8`"
+- Ok : "H1Y1E1", "H1Y 1E1", "h3Y 1E8"
 - Ko : "H1Y &#8203; &#8203; &#8203; 1E1", "H1Y_1E1", "h3Y 1TO"
-- Ko : "`H1Y    1E1`", "`H1Y_1E1`", "`h3Y 1TO`"
 
 ### Exercice Chasse aux bogues
 
