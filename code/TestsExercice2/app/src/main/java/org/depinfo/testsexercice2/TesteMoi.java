@@ -53,7 +53,11 @@ public class TesteMoi {
     //      Bonus : Qu'est-ce qui arrive si on envoie une chaîne ne contenant pas de chiffres?
     //              Et un nombre négatif?
     @RequiresApi(api = Build.VERSION_CODES.O)
-    public int calculate(String text) {
+    public int calculate(String text0) {
+
+        String[] characters = text0.split("");
+        String text = String.join(",", characters);
+        
         List<String> negatives = new ArrayList<String>();
 
         if (text == null || text.isEmpty()) {
