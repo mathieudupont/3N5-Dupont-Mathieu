@@ -10,11 +10,11 @@ hide_table_of_contents: true
 
 Nous reviendrons sur l'exercice Note, son service et le rôle des tests unitaires. On illustrera sur une classe et une méthode de calcul de la racine carrée.
 
-Premier élément pour exécuter le code
-Couvrir les cas fonctionnels et exceptionnels
-Limiter le temps d'exécution
-Assert pour garantir des choses dans le futur
-Calculer une couverture de code
+- Premier élément pour exécuter le code
+- Couvrir les cas fonctionnels et exceptionnels
+- Limiter le temps d'exécution
+- Assert pour garantir des choses dans le futur
+- Calculer une couverture de code
 
 <Row>
 
@@ -90,7 +90,7 @@ boolean isValidZipCode(String zippy);
 
 ### Exercice Chasse aux bogues
 
-Partir du code fourni [ici](https://github.com/departement-info-cem/3N5-Prog3/tree/main/code/TestsExercice3) et compléter les TODOs. On vous demande, autant que possible, de trouver les bogues uniquement en écrivant des tests (et non en regardant le code). Documenter ensuite le résultat du test et pourquoi il échoue.
+Partir du code fourni [ici](https://github.com/departement-info-cem/3N5-Prog3/tree/main/code/TestsExercice2) et compléter les TODOs. On vous demande, autant que possible, de trouver les bogues uniquement en écrivant des tests (et non en regardant le code). Documenter ensuite le résultat du test et pourquoi il échoue.
 
 Méthodes à tester
 
