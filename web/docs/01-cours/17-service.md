@@ -61,6 +61,6 @@ On cherche à réaliser une application permettant de gérer des étudiants et l
 
 Après la saisie de chaque nouvelle note d'étudiant, le système donne le détail de la situation de l'étudiant.
 
-Prenez cet exemple pour votre application. Vous devez définir le modèle de données ainsi que le service sous la forme des méthodes nécessaires.
+Prenez cet exemple pour votre application (TP). Vous devez définir le modèle de données ainsi que le service sous la forme des méthodes nécessaires.
 
 :::
