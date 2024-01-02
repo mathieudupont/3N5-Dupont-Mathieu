@@ -72,7 +72,7 @@ const config = {
           },
           {
             label: "Scripts Installation",
-            href: `https://github.com/departement-info-cem/scripts-mobile`,
+            href: `https://raw.githubusercontent.com/departement-info-cem/scripts-mobile/main/installation-mobile.ps1`,
             position: "right",
           },
         ],
