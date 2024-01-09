@@ -30,9 +30,9 @@ La documentation standard d'**[Android](https://developer.android.com/index.html
 
 :::tip Vidéos
 
-<Video url="https://youtu.be/x-dQ5Sa0Ns0" />
-
 <Video url="https://youtu.be/C0eWT0a2aM8" />
+
+<Video url="https://youtu.be/x-dQ5Sa0Ns0" />
 
 :::
 
