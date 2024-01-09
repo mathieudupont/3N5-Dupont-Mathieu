@@ -82,7 +82,7 @@ Indications
 
 Ton programme doit prendre en argument une adresse (URL) d’un site web et afficher son contenu dans la console. Pour faire cela, tu peux utiliser une librairie externe ou la librairie standard.
 
-Voici quelques exemples pour t'aider, choisis-en un et essaie de l'implémenter :
+Commence par l'implémenter en utilisant la librairie [jsoup](https://jsoup.org/), puis refais-le avec l'une des autres alternatives suivantes pour comparer :
 
 - [Librairie standard](http://docs.oracle.com/javase/tutorial/networking/urls/readingWriting.html)
 - [Librairie Guava](https://stackoverflow.com/a/6068228/1227197)
