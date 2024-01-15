@@ -8,6 +8,29 @@ hide_table_of_contents: true
 
 ## Contenu
 
+Video à faire:
+- pile d'appels dans le débogueur
+- ce qui se passe quand on lance une exception
+- dans la pile d'appels, on peut laisser passer ou attraper
+- syntaxe en kotlin
+- si personne n'attrape, l'application crash, et on voit une trace (trace) de pile (stack) d'appels communément appeleé 
+**stacktrace** 
+- dans une application, on devrait avoir une fonction qui attrape. Si ce n'est pas le cas, faire un gros try catch dans le main
+- dans une librairie, ce n'est pas le cas, on peut lancer des exceptions au programmeur de l'appli pour qu'il réagisse au problème
+
+Sources:
+- https://kotlinlang.org/docs/exceptions.html
+
+```kotlin
+try {
+    // some code
+} catch (e: SomeException) {
+    // handler
+} finally {
+    // optional finally block
+}
+```
+
 Cette semaine nous discuterons d'abord de comment gérer des exceptions lancées par le code qu'on utilise. Plus précisement, nous parlerons des 2 choix principaux:
 
 - Attraper une exception (catch d'un "try catch") : attraper l'exception et gérer la situation
@@ -59,6 +82,16 @@ Pour lister les TODO dans IntelliJ : `Menu hamburger en haut à gauche > View > 
 </Row>
 
 :::note Exercices
+
+Exercices type:
+- expliquer un stack trace et suggérer l'étape suivante
+- sans ordi prévoir le comportement
+- avec ordi et débogueur, répondre à une question creuse
+- programmer un bout de code qui illustre la compréhension
+
+### Exercice devine qui va attraper
+
+Fournir un exemple de code 
 
 ### Exercice TrouveLaValeur
 
@@ -160,14 +193,16 @@ public void etape3(){
 }
 ```
 
-### Exercice Jimmy et Johnny 👨‍🎤👨‍💼
+### Exercice sans machine 👨‍🎤👨‍💼
 
-Jimmy et Johnny se chicanent depuis 10 ans. Chacun a écrit une méthode afin de lire un fichier. Jimmy dit que les deux méthodes sont équivalentes alors que Johnny dit que le résultat n'est pas le même. Qui a raison et pourquoi?
+Sans exécuter, selon toi est-ce que les 2 méthodes suivantes donnent le même résultat ou non?
 
-Testez le [code](https://github.com/departement-info-cem/3N5-Prog3/tree/main/code/Demo_Exceptions/src/main/java/sabourin/exercices) pour démontrer si les méthodes sont pareilles ou non.
+Crée toi un projet pour valider ta réponse si les méthodes sont pareilles ou non.
 
-```java
-public static void lireDesFichiersJimmy(){
+TODO Comment ils doivent en garder une trace dans leur repo étudiant
+
+```kotlin
+public static void lireDesFichiersForTry(){
     for (int i = 0 ; i < 10 ; i++ ){
         try {
             lireFichier(i); 
@@ -177,7 +212,7 @@ public static void lireDesFichiersJimmy(){
     }
 }
 
-public static void lireDesFichiersJohnny(){
+public static void lireDesFichiersTryFor(){
     try {
         for (int i = 0 ; i < 10 ; i++ ){
             lireFichier(i); 

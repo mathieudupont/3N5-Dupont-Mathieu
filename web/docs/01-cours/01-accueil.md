@@ -45,6 +45,12 @@ hide_table_of_contents: true
 
 <Column>
 
+TODO accompagner pendant la séance à se créer un repo github
+- pour leurs exercices 
+- en forkant le repo du cours
+- privé pour éviter le plagiat
+- en suggérant un nom de type 3N5-NomDeFamille-Prenom
+
 :::danger Semaine type
 
 Chaque semaine, il y a du travail préparatoire à faire pour découvrir le contenu (page web, vidéos et/ou d'exercices). Cela représente environ 2 heures de travail.
