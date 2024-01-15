@@ -18,6 +18,11 @@ Video à faire:
 - dans une application, on devrait avoir une fonction qui attrape. Si ce n'est pas le cas, faire un gros try catch dans le main
 - dans une librairie, ce n'est pas le cas, on peut lancer des exceptions au programmeur de l'appli pour qu'il réagisse au problème
 
+Recette:
+1. identifier les bouts de codes qui pourraient lancer une exception
+2. se demander qui devrait l'attraper
+3. si on ne sait pas, attraper au point d'entrée (main) et afficher un message d'erreur "une erreur inconnue est survenue"
+
 Sources:
 - https://kotlinlang.org/docs/exceptions.html
 

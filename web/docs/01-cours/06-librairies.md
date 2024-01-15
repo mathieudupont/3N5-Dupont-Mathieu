@@ -4,11 +4,13 @@ description: Librairies externes
 hide_table_of_contents: true
 ---
 
-# Semaine 4 : Librairies Java tierces
+# Kotlin et librairies tierces
 
 ## Contenu
 
 - Demo de Maven Repository: librairie, version et pom.xml
+- Librairies Java dans Kotlin (bcp de librairies en Java)
+- 100% interoperability
 - Exemple de recherche de librairie : exemple de [https://square.github.io](https://square.github.io)
 
 <Row>

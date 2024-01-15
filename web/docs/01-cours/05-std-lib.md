@@ -4,11 +4,14 @@ description: Librairies standard
 hide_table_of_contents: true
 ---
 
-# Semaines 3 - 4 : Java, librairie standard
+# Semaines 3 - 4 : Kotlin, librairie standard
 
 ## Contenu
 
-Exemple de Map sur une classe que nous allons définir nous même pour hashCode et equals
+TODO on oublie hashcode et equals
+TODO on parle de collection mutable / pas mutable
+TODO on parle de set et list  Thème collection
+TODO on parle de fichiers écriture et lecture fichiers texte
 
 <Row>
 

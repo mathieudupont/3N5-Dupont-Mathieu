@@ -10,6 +10,18 @@ hide_table_of_contents: true
 
 <Column>
 
+TODO:
+- produire une recette pour inclure un recyclerview dans une activité existante
+  - librairies nécessaires dans build.gradle
+  - Ajout du recycler view dans le layout
+  - Adapter de base pour juste mettre le toString de l'objet
+  - Raffiner le layout
+  - Réagir dans l'adapter, obtenir un contexte / naviguer
+- une video d'explication du "recycler" dans RecyclerView (plus courte)
+  - différence entre create et bind
+  - explication avec points d'arret puis ensuite avec trace
+- valider la recette en l'appliquant à un projet existant
+
 :::danger Avant la séance (2h)
 
 - Vous devez regarder les vidéos
@@ -49,6 +61,18 @@ Compléter les exercices de la semaine. Continuer le travail pratique.
 
 :::note Exercices
 
+### Exercice recyclerView de base
+
+### Exercice recyclerView qui affiche tous les champs dans un layout adapté
+
+### Exercice recyclerView avec un bouton
+
+### Exercice recyclerView avec un bouton qui supprime l'élément
+
+### Exercice recyclerView avec un bouton qui va vers une autre activité
+
+### Exercice recyclerView avec un bouton qui va vers une autre activité et envoie l'élément 
+
 ### Exercice Bingo
 
 Vous devez implanter une liste qui sera affichée sur les téléphones des participants d'un jeu de Bingo. Chaque élément de la liste doit avoir :
@@ -71,6 +95,11 @@ Vous devez implanter une liste qui sera affichée sur les téléphones des parti
 
 Vous devez implanter un jeu où une liste de prénoms est classée dans un ordre aléatoire. Chaque élément a 2 boutons qui permettent de changer l’ordre dans la liste. Le joueur gagne dès que la liste est dans l’ordre alphabétique. Dans ce cas, on affiche un dialogue de félicitations et on mélange la liste à nouveau.
 
-![Bingo](_14-recycler/Order.jpg)
+![Alphapha](_14-recycler/Order.jpg)
+
+
+### Exercice duplicata
+
+Une liste avec les nombres entiers de 1 à 10, chaque fois qu'on appuie sur un item, il se dédouble.
 
 :::

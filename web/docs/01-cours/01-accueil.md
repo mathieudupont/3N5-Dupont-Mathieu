@@ -104,13 +104,23 @@ Pendant les séances en classe, il y aura...
 
 :::note Exercices
 
-### Exercice Bonjour Java
+TODO utiliser ChatGPT pour traduire de C# à kotlin.
 
-Tu dois créer un projet Java au format Maven dont le nom de package de base est **org.nomdefamille.demo** en changeant le nom de famille.
+### Exercice Bonjour Kotlin
+
+Tu dois créer un projet Kotlin au format Maven dont le nom de package de base est **org.nomdefamille.demo** en changeant le nom de famille.
 
 Créer 2 classes exécutables (avec un main qui suit la convention Java). La première s'appelle **NomDeFamille.java** et affiche "Bonjour Nom de famille" à l'exécution.
 
 La deuxième classe exécutable s'appelle **PrenomDuProf.java** et affiche "Salut prénom du prof" à l'exécution.
+
+### Exercice TraceManuelle
+
+TODO faire un exo avec du code, dire quelle ligne s'exécute dans quel ordre et quels affichages se font en console.
+
+```kotlin
+
+```
 
 ### Exercice Triangle
 
@@ -126,7 +136,7 @@ Reproduisez un triangle en prenant sa hauteur par un argument de ligne de comman
 Indications
 
 - La méthode qui permet de transformer une chaîne de caractères en entier est une méthode statique de la classe Integer.
-- Pour afficher un caractère sans sauter de ligne, System.out.print()
+- Pour afficher un caractère sans sauter de ligne, print()
 
 ### Exercice librairie JSOUP
 

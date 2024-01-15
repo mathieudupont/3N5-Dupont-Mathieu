@@ -8,6 +8,10 @@ hide_table_of_contents: true
 
 ## Contenu
 
+TODO video : 
+- refaire tape le lapin en kotlin (avec view binding, )
+- refaire mise en page en kotlin
+
 Nous ferons quelques exemples d'applications pour revenir sur les éléments couverts dans la video.
 
 - Exécution et débogage
