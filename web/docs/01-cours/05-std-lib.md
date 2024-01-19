@@ -19,6 +19,16 @@ TODO on parle de fichiers écriture et lecture fichiers texte
 
 :::danger Avant la séance (2h)
 
+Explication en profondeur mutalibilité et immutabilité.
+
+Une liste mutable peut faire tout ce que peut faire une liste immutables, alors:
+- pourquoi la immutables existe?
+- pourquoi on recommande d'utiliser le plus possible des collection immutables?
+
+Sources:
+- https://web.mit.edu/6.005/www/fa15/classes/09-immutability/#:~:text=The%20answer%20is%20that%20immutable,much%20harder%20to%20enforce%20contracts.
+- https://kt.academy/article/ek-mutability
+
 1. La source la plus importante de documentation sur la librairie standard est le javadoc. Parcourez une ou deux pages en partant de **[javadoc](https://docs.oracle.com/javase/7/docs/api/)** (max 20 minutes).
 2. Lire le javadoc de la classe **[Set](https://docs.oracle.com/javase/7/docs/api/java/util/Set.html)** (max 10 minutes).
 3. Regarder les vidéos de théorie

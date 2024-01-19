@@ -10,6 +10,11 @@ hide_table_of_contents: true
 
 - Exemples d'applications pour revenir sur les éléments couverts dans la video
 - Correction commentée de certains exercices de la semaine
+- Focus sur la null safety 
+  - https://en.wikipedia.org/wiki/Null_pointer#History
+  - https://en.wikipedia.org/wiki/Null_pointer#History
+- Focus sur val et var
+- Focus sur les annotations de types
 
 <Row>
 
@@ -58,6 +63,35 @@ hide_table_of_contents: true
 Le but des exercices est de découvrir kotlin par la pratique.
 
 Certaines syntaxes sont pareilles en C# et en Kotlin, alors que d'autres sont différentes. À toi de trouver lesquelles.
+
+### Exercice de compréhension sur val var
+
+**val** et **var** sont des mots clés très similaires en lecture rapide. Pourtant, ils sont très différents.
+
+### Exercice de compréhension sur les types
+
+Etant donné le code suivant et sans utiliser l'IDE, déterminer le type de chaque variable.
+
+Consigne ta réponse dans un document Word appelé **types.docx**
+
+TODO
+```kotlin
+val a = 1                                   // type est            
+val aa = 1L                                 // type est
+val aaa = a * 25 + aa * 100
+val b = 1.0                                 // type est 
+val c = "1"                                 // type est 
+val d = true                                // type est
+val laChose = a +  b + c                    // type est
+val lautreChose = b + c                    // type est
+val k = listOf("1", "2", "3")
+val l = mutableListOf(true, false, true)
+```
+
+Fais-toi un projet avec un main pour exécuter le code en débogage. Prends des screenshots de l'écran du débogueur
+qui te permet de déterminer le type de chaque **val**.
+
+Des surprises?
 
 ### Exercice Pyramide
 
