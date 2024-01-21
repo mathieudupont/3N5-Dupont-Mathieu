@@ -21,6 +21,10 @@ TODO on parle de fichiers écriture et lecture fichiers texte
 
 Explication en profondeur mutalibilité et immutabilité.
 
+Kotlin peut utiliser 
+- les librairies Java incluant tout le contenu de la librairie standart exemple java.util.List
+- la librairie standard de Kotlin qui est une surcouche de la librairie Java https://kotlinlang.org/api/latest/jvm/stdlib/
+
 Une liste mutable peut faire tout ce que peut faire une liste immutables, alors:
 - pourquoi la immutables existe?
 - pourquoi on recommande d'utiliser le plus possible des collection immutables?

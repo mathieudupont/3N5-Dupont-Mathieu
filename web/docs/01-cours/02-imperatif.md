@@ -95,22 +95,34 @@ Des surprises?
 
 ### Exercice Pyramide
 
-Reproduisez un triangle en prenant sa hauteur par un argument de ligne de commandes.
+Tu peux soit créer un projet appelé Pyramide ou un fichier Pyramide.kt dans un projet existant.
 
+Reproduis un triangle en prenant sa hauteur par un argument de ligne de commandes.
+
+Par exemple, pour un argument de 3, le programme doit afficher
 ```
   *
  ***
 *****
 ```
 
+Teste ton code sur les hauteurs suivantes 1, 2, 3, 10, 1000.
+
 ### Exercice Moyenne
 
-Créez un tableau d’entiers tirés au hasard entre 0 et 100. Calcule la somme, la moyenne, le min et le max et affiche les dans la console.
+Dans un projet ou un fichier avec un main, tu dois:
+- définir une fonction qui prend un paramètre **n** et crée un tableau de **n** entiers tirés au hasard entre 0 et 100 inclus.
+```kotlin
+fun creeTableauAleatoire(n: Int): Array<Int> {
+    // ton code ici
+}
+```
+- calcule la somme, la moyenne, le min et le max et affiche les dans la console (tu es fortement encouragé à définir des fonctions ici pour te pratiquer).
 
 Indications
-
-- besoin d’un objet de la classe Random pour les tirages aléatoires
-- pour trouver la documentation d’une classe, on Google `javadoc nomdelaclasse`, ici `javadoc Random`
+- https://kotlinlang.org/docs/arrays.html#create-arrays pour les manipulations de tableau en Kotlin
+- besoin d’un objet de la classe Random pour les tirages aléatoires : https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.random/-random/
+- pour trouver la documentation d’une classe, on Google `kotlin nomdelaclasse Random`, ici `kotlin class Random`
 
 ### Exercice Web
 
