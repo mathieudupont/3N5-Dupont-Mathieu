@@ -4,7 +4,7 @@ description: Affichage de listes
 hide_table_of_contents: true
 ---
 
-# Semaine 8 - 9 : Android : affichage de listes
+# Android : listes avec RecyclerView
 
 <Row>
 
@@ -21,6 +21,8 @@ TODO:
   - différence entre create et bind
   - explication avec points d'arret puis ensuite avec trace
 - valider la recette en l'appliquant à un projet existant
+
+
 
 :::danger Avant la séance (2h)
 
