@@ -10,12 +10,12 @@ hide_table_of_contents: true
 
 Nous allons passer sur une stratégie de base pour passer vos examens: [Stratégie examen](revision)
 
-## Examen final Automne 2022
+## Examen final Automne 2022 (attention Java)
 
 - [Énoncé : final 2022](@site/static/file/final2022/A22ExamenFinal.docx)
 - [Fichier départ : final 2022](@site/static/file/final2022/FinalTestA2022.zip)
 
-## Examen final Automne 2021
+## Examen final Automne 2021 (attention Java)
 
 - [Énoncé : final 2021](@site/static/file/final2021/A21ExamenFinal.docx)
 - [Fichier départ : final 2021](@site/static/file/final2021/FinalTests2.zip)

@@ -1,10 +1,10 @@
 ---
 title: Accueil
-description: Accueil et intro à Java
+description: Accueil et intro à Kotlin
 hide_table_of_contents: true
 ---
 
-# Semaine 1 : Introduction à Java et environnement de développement
+# Intro à Kotlin et environnement de développement
 
 <Row>
 
@@ -13,7 +13,7 @@ hide_table_of_contents: true
 ## Contenu
 
 - Application : architecture, exceptions, robustesse et tests automatisés
-- Java comme langage, Android comme plateforme
+- Kotlin comme langage, Android comme plateforme
   Plan de cours et logistique
 
 </Column>
@@ -31,11 +31,11 @@ hide_table_of_contents: true
 
 ## Théorie (voir les vidéos)
 
-- Installer l'IDE pour Java (Intellij IDEA)
-- Première classe Java
+- Installer l'IDE pour Kotlin (Intellij IDEA)
+- Première classe Kotlin
 - Point d'arrêt et débogueur
 - Configuration d'exécution et .idea
-- Ajouter une librairie dans MAVEN
+- Ajouter une librairie avec MAVEN
 
 </Column>
 
@@ -110,9 +110,9 @@ TODO utiliser ChatGPT pour traduire de C# à kotlin.
 
 Tu dois créer un projet Kotlin au format Maven dont le nom de package de base est **org.nomdefamille.demo** en changeant le nom de famille.
 
-Créer 2 classes exécutables (avec un main qui suit la convention Java). La première s'appelle **NomDeFamille.java** et affiche "Bonjour Nom de famille" à l'exécution.
+Créer 2 classes exécutables (avec un main qui suit la convention Kotlin). La première s'appelle **NomDeFamille.java** et affiche "Bonjour Nom de famille" à l'exécution.
 
-La deuxième classe exécutable s'appelle **PrenomDuProf.java** et affiche "Salut prénom du prof" à l'exécution.
+La deuxième classe exécutable s'appelle **PrenomDuProf.kt** et affiche "Salut prénom du prof" à l'exécution.
 
 ### Exercice TraceManuelle
 
@@ -146,7 +146,7 @@ Tu dois inclure JSoup dans les dépendances de ton projet dans le pom.xml.
 
 Tu dois créer une classe exécutable appelée **SuperDuperDemo.kt**. Dedans tu copieras un des exemples que tu trouves sur la page de JSOUP [https://jsoup.org/](https://jsoup.org/) et tu démontreras la bonne exécution.
 
-## Défi semaine 1 (optionnel)
+## Défi de la semaine (optionnel)
 
 ### Exercice UnUn
 

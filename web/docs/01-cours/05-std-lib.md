@@ -4,7 +4,7 @@ description: Librairies standard
 hide_table_of_contents: true
 ---
 
-# Semaines 3 - 4 : Kotlin, librairie standard
+# Kotlin, librairie standard
 
 ## Contenu
 
@@ -22,7 +22,7 @@ TODO on parle de fichiers écriture et lecture fichiers texte
 Explication en profondeur mutalibilité et immutabilité.
 
 Kotlin peut utiliser 
-- les librairies Java incluant tout le contenu de la librairie standart exemple java.util.List
+- les librairies Java incluant tout le contenu de la librairie standard exemple java.util.List
 - la librairie standard de Kotlin qui est une surcouche de la librairie Java https://kotlinlang.org/api/latest/jvm/stdlib/
 
 Une liste mutable peut faire tout ce que peut faire une liste immutables, alors:

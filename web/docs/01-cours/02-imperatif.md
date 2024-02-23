@@ -4,7 +4,7 @@ description: Prog. impérative
 hide_table_of_contents: true
 ---
 
-# Semaine 2 : Programmation impérative en Kotlin
+# Programmation impérative en Kotlin
 
 ## Contenu
 
@@ -22,10 +22,9 @@ hide_table_of_contents: true
 
 :::danger Avant la séance (2h)
 
-1. Parcourir la page Wikipedia concernant **[Kotlin](<https://fr.wikipedia.org/wiki/Java_(langage)>)** (max 20 minutes)
-2. Parcourir le site officiel (en anglais) **[fondamentaux au Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/)** (max 20 minutes)
-3. Regarder les vidéos de théorie
-4. Commencer les exercices de la semaine. Arrêter après 2h de travail
+1. Parcourir la page Wikipedia concernant **[Kotlin](<https://fr.wikipedia.org/wiki/Kotlin_(langage)>)** (max 20 minutes)
+2. Regarder les vidéos de théorie
+3. Commencer les exercices de la semaine. Arrêter après 2h de travail
 
 :::
 

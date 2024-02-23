@@ -4,7 +4,7 @@ description: Navigation entre activités
 hide_table_of_contents: true
 ---
 
-# Semaine 7 : Multiples activités et navigation
+# Multiples activités et navigation
 
 ## Contenu
 

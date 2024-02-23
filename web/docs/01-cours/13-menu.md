@@ -4,7 +4,7 @@ description: Menu
 hide_table_of_contents: true
 ---
 
-# Semaine 8 : Menu
+# Menu
 
 ## Contenu
 

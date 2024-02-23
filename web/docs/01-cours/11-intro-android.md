@@ -4,7 +4,7 @@ description: Intro et mise en page
 hide_table_of_contents: true
 ---
 
-# Semaine 7 : Introduction à Android, mise en page
+# Introduction à Android, mise en page
 
 ## Contenu
 

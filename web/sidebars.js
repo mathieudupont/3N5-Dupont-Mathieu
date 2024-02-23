@@ -62,7 +62,7 @@ const sidebars = {
     {
       type: "doc",
       label: "6.2 - Examen Intra (30%)",
-      id: "cours/examen",
+      id: "cours/examen-intra",
       className: "examen",
     },
     {
