@@ -161,7 +161,7 @@ const sidebars = {
     },
   ],
   tp: [
-    { type: "doc", label: "TP1 - ExploraWeb2000", id: "tp/tp1" },
+    { type: "doc", label: "TP1 - KotCrawler", id: "tp/tp1" },
     { type: "doc", label: "TP2 - Interface graphique Android", id: "tp/tp2" },
     { type: "doc", label: "TP3 - Appli Android", id: "tp/tp3" },
   ],
