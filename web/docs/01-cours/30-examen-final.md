@@ -4,7 +4,7 @@ description: Examen
 hide_table_of_contents: true
 ---
 
-# Examen Intra
+# Examen final
 
 <Row>
 

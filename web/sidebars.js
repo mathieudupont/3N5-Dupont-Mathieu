@@ -156,7 +156,7 @@ const sidebars = {
     {
       type: "doc",
       label: "15.2 - Examen Final (30%)",
-      id: "cours/examen",
+      id: "cours/examen-final",
       className: "examen",
     },
   ],

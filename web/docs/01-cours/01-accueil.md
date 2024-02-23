@@ -140,20 +140,22 @@ Indications
 
 ### Exercice librairie JSOUP
 
-Tu dois créer un projet Java au format Maven dont le nom est DemoJSoup.
+Tu dois créer un projet Kotlin au format Maven dont le nom est DemoJSoup.
 
 Tu dois inclure JSoup dans les dépendances de ton projet dans le pom.xml.
 
-Tu dois créer une classe exécutable appelée **SuperDuperDemo.java**. Dedans tu copieras un des exemples que tu trouves sur la page de JSOUP [https://jsoup.org/](https://jsoup.org/) et tu démontreras la bonne exécution.
+Tu dois créer une classe exécutable appelée **SuperDuperDemo.kt**. Dedans tu copieras un des exemples que tu trouves sur la page de JSOUP [https://jsoup.org/](https://jsoup.org/) et tu démontreras la bonne exécution.
 
 ## Défi semaine 1 (optionnel)
 
 ### Exercice UnUn
 
-Tu dois programmer une méthode qui transforme une String en une autre String:
+Tu dois programmer une méthode en Kotlin qui transforme une String en une autre String:
 
-```java
-static String unUn(String source){}
+```kotlin
+fun unUn(source: String): String{
+    TODO()
+}
 ```
 
 Par exemple, si la source est "111213", on compte le nombre de chiffres identiques
@@ -169,8 +171,10 @@ Le résultat de "111213" serait donc "31121113"
 
 Tu programmes une méthode qui affiche une séquence de _n_ String partant du paramètre source.
 
-```java
-static void sequence(String source, int longueur){}
+```kotlin
+fun sequence(source: String, longueur: Int): List<String>{
+    TODO()
+}
 ```
 
 Par exemple, pour **sequence("1", 6)** donne
