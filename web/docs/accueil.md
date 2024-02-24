@@ -11,11 +11,11 @@ hide_table_of_contents: true
 
 Bienvenue dans 3N5 - Programmation 3! On apprendra à coder en [Kotlin](https://kotlinlang.org), utiliser des librairies, et créer des applications Android.
 
-Le contenu des cours et les TP sont disponibles dans les onglets **[Cours](cours/accueil)** et **[Travaux Pratiques](tp/tp1)**.
+Les cours et les TP sont disponibles dans les onglets **[Cours](cours/accueil)** et **[Travaux Pratiques](tp/tp1)**.
 
-D'ici le premier cours, tu peux déjà commencer à regarder les vidéos du cours 1 et prendre connaissance des informations ci-bas.
+D'ici le premier cours, tu peux déjà commencer à regarder les vidéos du cours 1 et lire cette page.
 
-Au début de chaque cours, tu devras exécuter ce [script](https://github.com/departement-info-cem/scripts-mobile/tree/main) pour installer les logiciels nécessaires au cours.
+Au début de chaque cours, tu devras exécuter ce **[script](https://github.com/departement-info-cem/scripts-mobile/tree/main)** pour installer les logiciels nécessaires au cours.
 
 :::danger Plagiat
 
@@ -37,7 +37,7 @@ Pendant la séance, tu dois compléter et valider tes exercices, poser des quest
 
 À la maison, vous devez installer **[JDK](https://aws.amazon.com/fr/corretto/)** et l'environnement de développement **[Intellij IDEA](https://www.jetbrains.com/fr-fr/idea/)**
 
-Pendant la 2ème moitié du cours en Android, vous aurez besoin de **[Android Studio](https://developer.android.com/studio)**.
+Pour Android, vous aurez besoin de **[Android Studio](https://developer.android.com/studio)**.
 
 Problèmes courants et solutions **[ICI](solutions)**
 
