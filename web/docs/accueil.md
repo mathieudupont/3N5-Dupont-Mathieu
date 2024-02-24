@@ -73,12 +73,12 @@ Démonstrations du cours / Github **[ICI](https://github.com/departement-info-ce
 | [9.2 →](cours/menu)               | Menu et graphiques                     | [TP3 : BD, tests erreurs](tp/tp3) |
 | [10.1 →](cours/integration-1)     | Pile d'appels et exceptions            | 20%                               |
 | [10.2 →](cours/structure-android) | Structurer son code, Android edition   | 30%                               |
-| [11.2 →](cours/tiroir)            | Tiroir de navigation 1                 | 40%                               |
-| [11.1 →](cours/tiroir)            | Tiroir de navigation 2                 | 50%                               |
-| [12.2 →](cours/tiroir)            | Tiroir de navigation 3                 | 60%                               |
-| [12.1 →](cours/tests)             | Tests                                  | 70%                               |
-| [13.2 →](cours/tests)             | Tests                                  | 80%                               |
-| [13.1 →](cours/integration-3)     | Retour sur refactor def de methode     | 90%                               |
+| [11.1 →](cours/tiroir)            | Tiroir de navigation 1                 | 40%                               |
+| [11.2 →](cours/tiroir)            | Tiroir de navigation 2                 | 50%                               |
+| [12.1 →](cours/tiroir)            | Tiroir de navigation 3                 | 60%                               |
+| [12.2 →](cours/tests)             | Tests                                  | 70%                               |
+| [13.1 →](cours/tests)             | Tests                                  | 80%                               |
+| [13.2 →](cours/integration-3)     | Retour sur refactor def de methode     | 90%                               |
 | [14.1 →](cours/integration-3)     | Intégation (supprimé si absence prof)  | 99%                               |
 | [14.2 →](cours/integration-3)     | Intégration / correction TP3           | 100% remise                       |
 | [15.1 →](cours/formatif-final)    | Formatif final                         |                                   |
