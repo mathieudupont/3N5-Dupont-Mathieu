@@ -5,95 +5,49 @@ const sidebars = {
   docs: [
     {
       type: "doc",
-      label: "1.1 - Accueil",
+      label: "1.1 1.2 - Accueil et TP1",
       id: "cours/accueil",
     },
     {
       type: "doc",
-      label: "1.2 - Accueil",
-      id: "cours/accueil",
-    },
-    {
-      type: "doc",
-      label: "2.1 - Impératif",
+      label: "2.1 2.2 - Impératif",
       id: "cours/imperatif",
     },
     {
       type: "doc",
-      label: "2.2 - Impératif",
-      id: "cours/imperatif",
-    },
-    {
-      type: "doc",
-      label: "3.1 - Exceptions",
-      id: "cours/exceptions",
-    },
-    {
-      type: "doc",
-      label: "3.2 - Librairie standard",
-      id: "cours/std-lib",
-    },
-    {
-      type: "doc",
-      label: "4.1 - Librairie standard",
-      id: "cours/std-lib",
-    },
-    {
-      type: "doc",
-      label: "4.2 - Librairies",
+      label: "3.1 - Librairies",
       id: "cours/librairies",
     },
     {
       type: "doc",
-      label: "5.1 - Intégration",
-      id: "cours/integration-1",
+      label: "4.1 - Structure",
+      id: "cours/structure",
     },
     {
       type: "doc",
-      label: "5.2 - Intégration",
+      label: "4.2 - Intégration",
       id: "cours/integration-1",
       className: "remise-tp1",
     },
     {
       type: "doc",
-      label: "6.1 - Formatif",
+      label: "5.1 - Formatif",
       id: "cours/formatif-intra",
     },
     {
       type: "doc",
-      label: "6.2 - Examen Intra (30%)",
+      label: "5.2 - Examen Intra (30%)",
       id: "cours/examen-intra",
       className: "examen",
     },
     {
-      type: "doc",
-      label: "7.1 - Introduction Android",
-      id: "cours/intro-android",
-    },
-
+          type: "doc",
+          label: "6.1 - Intro Android",
+          id: "cours/intro-android",
+        },
     {
       type: "doc",
-      label: "7.2 - Activités",
-      id: "cours/activites",
-    },
-    {
-      type: "doc",
-      label: "8.1 - Menu",
-      id: "cours/menu",
-    },
-    {
-      type: "doc",
-      label: "8.2 - Recycler",
-      id: "cours/recycler",
-    },
-    {
-      type: "doc",
-      label: "9.1 - Recycler",
-      id: "cours/recycler",
-    },
-    {
-      type: "doc",
-      label: "9.2 - Recycler",
+      label: "7.1 7.2 7.3 7.4 - RecyclerView",
       id: "cours/recycler",
     },
     {
@@ -104,37 +58,17 @@ const sidebars = {
     },
     {
       type: "doc",
-      label: "10.2 - Room",
-      id: "cours/room",
+      label: "X.X - Menu",
+      id: "cours/menu",
     },
     {
       type: "doc",
-      label: "11.1 - Room",
-      id: "cours/room",
+      label: "11.1 11.2 12.1 - Tiroir",
+      id: "cours/tiroir",
     },
     {
       type: "doc",
-      label: "11.2 - Room",
-      id: "cours/room",
-    },
-    {
-      type: "doc",
-      label: "12.1 - Service",
-      id: "cours/service",
-    },
-    {
-      type: "doc",
-      label: "12.2 - Tests",
-      id: "cours/tests",
-    },
-    {
-      type: "doc",
-      label: "13.1 - Tests",
-      id: "cours/tests",
-    },
-    {
-      type: "doc",
-      label: "13.2 - Tests",
+      label: "12.2 13.1 - Tests",
       id: "cours/tests",
     },
     {
