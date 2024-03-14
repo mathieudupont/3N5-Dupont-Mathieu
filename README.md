@@ -4,6 +4,13 @@ Dans ce cours, nous allons changer de langage pour Kotlin:
 - nous allons t'accompagner dans l'apprentissage d'un nouveau langage (après C#)
 - nous allons utiliser Android dans la 2ème partie du cours pour faire l'interface graphique
 
+## standards pour les videos et exemples
+- kotlin
+- script de build en kotlin kts
+- nom de package org.nomdefamille 
+- pour les exemples qc.monpays
+- toujours view binding et jamais findViewById
+
 ## idées
 
 - faire des exercices où on utilise exclusivement le Layout Inspector pour déterminer une taille en dp sur un weight
