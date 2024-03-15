@@ -4,10 +4,18 @@ Dans ce cours, nous allons changer de langage pour Kotlin:
 - nous allons t'accompagner dans l'apprentissage d'un nouveau langage (après C#)
 - nous allons utiliser Android dans la 2ème partie du cours pour faire l'interface graphique
 
-## standards pour les videos et exemples
+## standards pour les videos et exemples Kotlin
+- kotlin
+- gradle comme système de build (permet d'avoir le même format de dépendances que pour Android)
+- on déclare les types pour les var et val
+- nom de package org.nomdefamille 
+- pour les exemples qc.monpays
+
+## standards pour les videos et exemples an Android
 - kotlin
 - script de build en kotlin kts
-- nom de package org.nomdefamille 
+- LinearLayout comme outil de base pour la mise en page
+- nom de package org.nomdefamille
 - pour les exemples qc.monpays
 - toujours view binding et jamais findViewById
 
