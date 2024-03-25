@@ -11,6 +11,7 @@ hide_table_of_contents: true
 <Column>
 
 TODO:
+
 - produire une recette pour inclure un recyclerview dans une activité existante
   - librairies nécessaires dans build.gradle
   - Ajout du recycler view dans le layout
@@ -21,8 +22,6 @@ TODO:
   - différence entre create et bind
   - explication avec points d'arret puis ensuite avec trace
 - valider la recette en l'appliquant à un projet existant
-
-
 
 :::danger Avant la séance (2h)
 
@@ -63,17 +62,56 @@ Compléter les exercices de la semaine. Continuer le travail pratique.
 
 :::note Exercices
 
-### Exercice recyclerView de base
+##### Avant de commencer 🤔
 
-### Exercice recyclerView qui affiche tous les champs dans un layout adapté
+Les exercices Albums Favoris sont itératifs : à chaque exercices, vous allez commencer à partir de la fin du précédent. Lorsque vous commencez un exercice, nous vous recommandons d'effectuer une copie du dernier projet pour garder une trace de votre avancement. Cela pourrait vous servir lors des examens ou des travaux pratiques!
 
-### Exercice recyclerView avec un bouton
+### Exercice Albums Favoris : Base
 
-### Exercice recyclerView avec un bouton qui supprime l'élément
+Vous devez implémenter un RecyclerView simple, où chaque entrée de la liste est une `String` qui représente l'un de vos albums favoris.
 
-### Exercice recyclerView avec un bouton qui va vers une autre activité
+### Exercice Albums Favoris : Champs d'une classe
 
-### Exercice recyclerView avec un bouton qui va vers une autre activité et envoie l'élément 
+Chaque entrée de la liste affiche les différents champs d'une classe `Album`.
+
+Voici la classe `Album` :
+
+```kotlin
+data class Album(
+    val id: Int,
+    val name: String,
+    val artistName: String,
+)
+```
+
+### Exercice Albums Favoris : Page de détails
+
+Lorsqu'on clique sur un élément de la liste, on doit ouvrir une activitée de détail liée à l'entrée cliquée. La page de détail doit afficher les mêmes champs qui sont affichés dans la liste.
+
+### Exercice Albums Favoris : Supprimer
+
+Chaque élément de la liste possède un bouton "Supprimer" qui permet de supprimer l'entrée de la liste.
+
+### (Optionnel) Exercice Albums Favoris : Finition
+
+Pour chaque élément de la liste, affichez l'image d'un album à partir d'une URL. Nous vous recommandons d'utiliser la librairie [Picasso](https://square.github.io/picasso/) pour vous aider.
+
+Voici la classe `Album` mise à jour :
+
+```kotlin
+data class Album(
+    val id: Int,
+    val name: String,
+    val artistName: String,
+    val coverUrl: String,
+)
+```
+
+Ajoutez un séparateur entre chaque élément de la liste.
+
+### (Optionnel Avancé) Exercice Albums Favoris : Supprimer en glissant
+
+Faites en sorte qu'on soit capable de supprimer un élément de la liste en le glissant vers la droite ou vers la gauche.
 
 ### Exercice Bingo
 
@@ -98,7 +136,6 @@ Vous devez implanter une liste qui sera affichée sur les téléphones des parti
 Vous devez implanter un jeu où une liste de prénoms est classée dans un ordre aléatoire. Chaque élément a 2 boutons qui permettent de changer l’ordre dans la liste. Le joueur gagne dès que la liste est dans l’ordre alphabétique. Dans ce cas, on affiche un dialogue de félicitations et on mélange la liste à nouveau.
 
 ![Alphapha](_14-recycler/Order.jpg)
-
 
 ### Exercice duplicata
 

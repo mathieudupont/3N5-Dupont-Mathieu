@@ -41,13 +41,28 @@ const sidebars = {
       className: "examen",
     },
     {
-          type: "doc",
-          label: "6.1 - Intro Android",
-          id: "cours/intro-android",
-        },
+      type: "doc",
+      label: "6.1 - Intro Android",
+      id: "cours/intro-android",
+    },
     {
       type: "doc",
-      label: "7.1 7.2 7.3 7.4 - RecyclerView",
+      label: "7.1 - RecyclerView",
+      id: "cours/recycler",
+    },
+    {
+      type: "doc",
+      label: "7.2 - RecyclerView",
+      id: "cours/recycler",
+    },
+    {
+      type: "doc",
+      label: "7.3 - RecyclerView",
+      id: "cours/recycler",
+    },
+    {
+      type: "doc",
+      label: "7.4 - RecyclerView",
       id: "cours/recycler",
     },
     {
