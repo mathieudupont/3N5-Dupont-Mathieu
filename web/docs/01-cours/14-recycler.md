@@ -4,6 +4,8 @@ description: Affichage de listes
 hide_table_of_contents: true
 ---
 
+import ReactPlayer from 'react-player'
+
 # Android : listes avec RecyclerView
 
 <Row>
@@ -68,9 +70,26 @@ Les exercices Albums Favoris sont itératifs : à chaque exercices, vous allez c
 
 ### Exercice Albums Favoris : Base
 
-Vous devez implémenter un RecyclerView simple, où chaque entrée de la liste est une `String` qui représente l'un de vos albums favoris.
+<Row>
+
+<Column size="9" >
+
+Vous devez implémenter un RecyclerView simple, où chaque entrée de la liste est une `String` qui représente l'un de vos albums favoris. Chaque entrée de la liste a une hauteur de 150dp.
+
+</Column>
+<Column size="3" >
+
+![Album Favoris : Base](_14-recycler/albums_favoris_base.png)
+
+</Column>
+
+</Row>
 
 ### Exercice Albums Favoris : Champs d'une classe
+
+<Row>
+
+<Column size="9" >
 
 Chaque entrée de la liste affiche les différents champs d'une classe `Album`.
 
@@ -84,17 +103,54 @@ data class Album(
 )
 ```
 
+</Column>
+<Column size="3" >
+
+![Albums favoris : Classe](_14-recycler/albums_favoris_classe.png)
+
+</Column>
+
+</Row>
+
 ### Exercice Albums Favoris : Page de détails
+
+<Row>
+
+<Column size="9" >
 
 Lorsqu'on clique sur un élément de la liste, on doit ouvrir une activitée de détail liée à l'entrée cliquée. La page de détail doit afficher les mêmes champs qui sont affichés dans la liste.
 
+</Column>
+<Column size="3" >
+
+![Albums favoris : Détails](_14-recycler/albums_favoris_details.png)
+
+</Column>
+</Row>
+
 ### Exercice Albums Favoris : Supprimer
+
+<Row>
+
+<Column size="9" >
 
 Chaque élément de la liste possède un bouton "Supprimer" qui permet de supprimer l'entrée de la liste.
 
+</Column>
+<Column size="3" >
+
+![Albums favoris : Supprimer](_14-recycler/albums_favoris_supprimer.png)
+
+</Column>
+</Row>
+
 ### (Optionnel) Exercice Albums Favoris : Finition
 
-Pour chaque élément de la liste, affichez l'image d'un album à partir d'une URL. Nous vous recommandons d'utiliser la librairie [Picasso](https://square.github.io/picasso/) pour vous aider.
+<Row>
+
+<Column size="6" >
+
+Pour chaque élément de la liste, et dans la page de détails, affichez l'image d'un album à partir d'une URL. Nous vous recommandons d'utiliser la librairie [Picasso](https://square.github.io/picasso/) pour vous aider.
 
 Voici la classe `Album` mise à jour :
 
@@ -109,9 +165,43 @@ data class Album(
 
 Ajoutez un séparateur entre chaque élément de la liste.
 
+</Column>
+<Column size="3" >
+
+![Albums favoris : Supprimer](_14-recycler/albums_favoris_finition_item.png)
+
+</Column>
+<Column size="3" >
+
+![Albums favoris : Supprimer](_14-recycler/albums_favoris_finition_details.png)
+
+</Column>
+</Row>
+
 ### (Optionnel Avancé) Exercice Albums Favoris : Supprimer en glissant
 
+<Row>
+
+<Column size="6" >
+
 Faites en sorte qu'on soit capable de supprimer un élément de la liste en le glissant vers la droite ou vers la gauche.
+
+</Column>
+<Column size="3" >
+
+On commence à glisser de gauche à droite.
+
+![Albums favoris : Glisser début](_14-recycler/albums_favoris_glisser_debut.png)
+
+</Column>
+<Column size="3" >
+
+On a terminé de glisser, l'item a été supprimé.
+
+![Albums favoris : Glisser fin](_14-recycler/albums_favoris_glisser_fin.png)
+
+</Column>
+</Row>
 
 ### Exercice Bingo
 
