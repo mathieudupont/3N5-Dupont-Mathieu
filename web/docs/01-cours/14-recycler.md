@@ -223,9 +223,25 @@ Vous devez implanter une liste qui sera affichée sur les téléphones des parti
 
 ### Exercice OrdreAlpha
 
-Vous devez implanter un jeu où une liste de prénoms est classée dans un ordre aléatoire. Chaque élément a 2 boutons qui permettent de changer l’ordre dans la liste. Le joueur gagne dès que la liste est dans l’ordre alphabétique. Dans ce cas, on affiche un dialogue de félicitations et on mélange la liste à nouveau.
+<Row>
 
-![Alphapha](_14-recycler/Order.jpg)
+<Column size="6" >
+
+- Vous devez implanter un jeu où une liste de prénoms est classée dans un ordre aléatoire.
+- Chaque élément a 2 boutons qui permettent de changer l’ordre dans la liste.
+- Le joueur gagne dès que la liste est dans l’ordre alphabétique. Dans ce cas :
+  - On affiche un dialogue de félicitations
+  - On mélange la liste à nouveau.
+
+</Column>
+
+<Column size="6">
+
+![Alphapha](_14-recycler/ordre_alpha.png)
+
+</Column>
+
+</Row>
 
 ### Exercice duplicata
 
