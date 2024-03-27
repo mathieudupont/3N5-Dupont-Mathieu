@@ -237,7 +237,7 @@ Vous devez implanter une liste qui sera affichée sur les téléphones des parti
 
 <Column size="6">
 
-![Alphapha](_14-recycler/ordre_alpha.png)
+![Alpha](_14-recycler/ordre_alpha.png)
 
 </Column>
 
@@ -245,6 +245,21 @@ Vous devez implanter une liste qui sera affichée sur les téléphones des parti
 
 ### Exercice duplicata
 
-Une liste avec les nombres entiers de 1 à 10, chaque fois qu'on appuie sur un item, il se dédouble.
+<Row>
+
+<Column size="9" >
+
+- Une liste avec les nombres entiers de 1 à 10
+- Chaque fois qu'on appuie sur un item, il se dédouble.
+
+</Column>
+
+<Column size="3">
+
+![Duplicata](_14-recycler/duplicata.png)
+
+</Column>
+
+</Row>
 
 :::
