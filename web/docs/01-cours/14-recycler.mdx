@@ -54,12 +54,12 @@ Compléter les exercices de la semaine. Continuer le travail pratique.
 
 :::tip Recette RecyclerView de String
 
-Étapes de mise en place d'un `RecyclerView` qui gère une liste de `String`.
+Étapes de mise en place d'un `RecyclerView` qui gère une liste de `String` sur un projet existant.
 
 <Tabs>
   <TabItem value="build.gradle.kts" label="build.gradle.kts">
 
-    Vous allez utiliser le [ViewBinding](https://developer.android.com/topic/libraries/view-binding#kts) pour la suite des choses. Assurez vous qu'il est activé dans votre fichier `build.gradle.kts`.
+    Nous allons utiliser le [ViewBinding](https://developer.android.com/topic/libraries/view-binding#kts) pour la suite des choses. Assurez vous qu'il est activé dans votre fichier `build.gradle.kts`.
 
     ```kotlin
     android {
@@ -99,7 +99,7 @@ Compléter les exercices de la semaine. Continuer le travail pratique.
     - Assignez des `id` aux éléments avec lesquels vous allez interagir.
     - Attention à la hauteur de chaque élément. Ils doivent tous avoir une hauteur fixe ou une hauteur définie en fonction de leur contenu.
 
-    Voici un exemple de fichier `mon_item.xml` si on souhaite afficher un `TextView` et un `Button` :
+    Voici un exemple de fichier `mon_item.xml` si on souhaite afficher une `String` dans un `TextView` :
 
     ```xml
     <?xml version="1.0" encoding="utf-8"?>
@@ -116,29 +116,19 @@ Compléter les exercices de la semaine. Continuer le travail pratique.
             android:layout_gravity="center"
             android:text="Salut Salut!"
             android:textSize="24sp" />
-
-        <View
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_weight="1" />
-
-        <Button
-            android:id="@+id/btnAction"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:text="ACTION!" />
     </LinearLayout>
     ```
   </TabItem>
   <TabItem value="MonAdapter.kt" label="MonAdapter.kt" default>
 
-    Vous allez créer une classe qui est responsable de la création de **TOUT** les éléments de la liste et de leur mise à jour.
+    Vous allez créer une classe qui est responsable de la gestion de **TOUT** les éléments de la liste et de leur mise à jour.
     En Android, ce type est classe est appelée un **[Adapter](https://developer.android.com/reference/kotlin/android/widget/Adapter)**. 
 
     Créez une nouvelle classe `MonAdapter.kt` dans un package `adapters` de votre projet.
     
     ![Recette créer mon adapter](_14-recycler/recette_creer_mon_adapter.png)
+
+    #### ViewHolder
 
     Dans la classe `MonAdapter`, vous devez définir une classe interne, qui sera responsable de gérer le contenu affiché dans **UN SEUL** élément de la liste.
     Cette classe est appelée un **[ViewHolder](https://developer.android.com/reference/kotlin/androidx/recyclerview/widget/RecyclerView.ViewHolder)**.
@@ -147,29 +137,37 @@ Compléter les exercices de la semaine. Continuer le travail pratique.
     ```kotlin
     class MonAdapter
 
-      inner class AdapterItemViewHolder(private val binding: MonItemBinding) : RecyclerView.ViewHolder(binding.root) {
-          fun bind(adapterItem: String) {
-              binding.tvNoTirage.text = adapterItem
+      // binding nous permet d'accéder à tout le champs de notre layout mon_item.xml
+      inner class MonItemViewHolder(private val binding: MonItemBinding) : RecyclerView.ViewHolder(binding.root) {
+          fun bind(item: String) {
+              binding.tvElement.text = item // On affiche l'élément dans le TextView
           }
       }
 
     }
     ```
 
-    Une classe interne (`inner class`) est une classes qui ne peut être utilisée que par sa classe parente. 
-    Dans votre cas, la classe `AdapterItemViewHolder` ne pourra être utiliée que par sa classe parente, soit `MonAdapter`.
-    Nous aurions pu la créer en dehors de la classe `MonAdapter`, dans son propre fichier, mais c'est surtout par soucis de clarté que nous la définissons à l'intérieur puisqu'elle ne sera jamais utilisée en dehors du contexte de la classe `MonAdapter`.
+    #### DiffCallback
 
-    La classe `AdapterItemViewHolder` prend en paramètre un objet de type `MonItemBinding`. 
-    Cet objet est généré automatiquement puisque nous avons activé le `ViewBinding` et que nous avons créé un fichir `mon_item.xml` plus tôt.
-    Il nous donne accès à tous les éléments de notre fichier `xml` sous forme de propriétés.
+    Pour que l'`Adapter` sache quels éléments d'une liste doivent être affichés lorsqu'on la modifie, on doit définir un objet qui implémente la classe abstraite **[DiffUtil.ItemCallback](https://developer.android.com/reference/androidx/recyclerview/widget/DiffUtil.ItemCallback)**.
 
-    La classe `AdapterItemViewHolder` hérite de la classe `RecyclerView.ViewHolder` qui est responsable de faire le lien avec le système de gestion de liste d'Android.
-    Cette classe prend en paramètre le `root` de notre fichier `mon_item.xml` qui est l'élément le plus "haut" de notre fichier. 
-    Dans le cas du fichier `mon_item.xml`, il s'agit de `LinearLayout`.
+    Nous vous recommandons de définir cet objet dans le même fichier que votre `Adapter`, mais à l'extérieur de la classe `MonItemAdapter`.
 
-    La classe `AdapterItemViewHolder` définit une méthode `bind` qui prend en paramètre ce qu'on désire afficher dedans, soit une `String`.
-    Cette méthode est responsable de mettre à jour les éléments de l'interface graphique de l'élément de la liste.
+    ```kotlin
+    class MonItemAdapter {
+        // ...
+    }
+
+    object MonItemDiffCallback : DiffUtil.ItemCallback<String>() {
+        override fun areItemsTheSame(oldItem: String, newItem: String): Boolean {
+            return oldItem == newItem
+        }
+
+        override fun areContentsTheSame(oldItem: String, newItem: String): Boolean {
+            return oldItem == newItem
+        }
+    }
+    ```
 
   </TabItem>
   <TabItem value="ActivityMain.xml" label="ActivityMain.xml">
