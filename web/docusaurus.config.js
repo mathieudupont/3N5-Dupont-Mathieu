@@ -61,7 +61,7 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "cours/rencontre1.1",
+            docId: "cours/accueil",
             position: "left",
             label: "Cours",
           },
@@ -70,6 +70,11 @@ const config = {
             position: "left",
             sidebarId: "tp",
             label: "Travaux Pratiques",
+          },
+          {
+            label: "Scripts Installation",
+            href: `https://raw.githubusercontent.com/departement-info-cem/scripts-mobile/main/installation-mobile.ps1`,
+            position: "right",
           },
         ],
       },
@@ -82,6 +87,14 @@ const config = {
               {
                 label: "GitHub",
                 href: `https://github.com/departement-info-cem/${siteConfig.nomUrl}`,
+              },
+            ],
+          },
+          {
+            items: [
+              {
+                label: "Département d'informatique",
+                href: `https://info.cegepmontpetit.ca/accueil`,
               },
             ],
           },
