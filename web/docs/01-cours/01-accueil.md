@@ -14,7 +14,7 @@ hide_table_of_contents: true
 
 - Application : architecture, exceptions, robustesse et tests automatisés
 - Kotlin comme langage, Android comme plateforme
-  Plan de cours et logistique
+- Plan de cours et logistique
 
 </Column>
 
@@ -22,7 +22,7 @@ hide_table_of_contents: true
 
 ## Évaluations et date
 
-- Politique concernant les absences non justifiées
+- Politique concernant les absences / retards
 - Politique concernant le plagiat
 
 </Column>
@@ -31,11 +31,14 @@ hide_table_of_contents: true
 
 ## Théorie (voir les vidéos)
 
+- Utilisation du script d'installation
 - Installer l'IDE pour Kotlin (Intellij IDEA)
 - Première classe Kotlin
 - Point d'arrêt et débogueur
 - Configuration d'exécution et .idea
 - Ajouter une librairie avec MAVEN
+- Définir une fonction en Kotlin
+- Créer un fork du repo du cours privé pour mettre vos exercices 3N5-NomDeFamille-Prenom
 
 </Column>
 
@@ -45,11 +48,6 @@ hide_table_of_contents: true
 
 <Column>
 
-TODO accompagner pendant la séance à se créer un repo github
-- pour leurs exercices 
-- en forkant le repo du cours
-- privé pour éviter le plagiat
-- en suggérant un nom de type 3N5-NomDeFamille-Prenom
 
 :::danger Semaine type
 
@@ -70,19 +68,21 @@ Pendant les séances en classe, il y aura...
 
 :::tip Vidéos de la matière
 
-<Video url="https://youtu.be/mu2-0jfpmxc"/>
+TODO Video sur premier projet, avec point d'arrêt et arguments
 
-<Video url="https://youtu.be/UsdhEb-7kec"/>
-
-<Video url="https://youtu.be/NHZJdK_6dA8"/>
+TODO Video sur ajouter une librairie Java dans un projet Kotlin
 
 :::
 
 :::tip Installation
 
-<Video url="https://youtu.be/b7MgJDd1Iks"/>
+Pour l'installation au collège, nous ferons une démo du [script](https://github.com/departement-info-cem/scripts-mobile/blob/main/installation-mobile.ps1)
 
-<Video url="https://youtu.be/aWd160BjRYE"/>
+Pour l'installation à la maison:
+- installer [Intellij community edition](https://www.jetbrains.com/idea/download/other.html)
+- vous pouvez utilisez jetbrains toolbox pour gérer les IDE jetbrains (Intellij, Android Studio, etc.)
+- vous pouvez poser des questions à votre prof si vous avez des difficultés
+- si vous avez un portable, apportez-le en cours si votre installation ne marche pas
 
 :::
 
@@ -138,13 +138,34 @@ Indications
 - La méthode qui permet de transformer une chaîne de caractères en entier est une méthode statique de la classe Integer.
 - Pour afficher un caractère sans sauter de ligne, print()
 
+### Exercice Triangles
+
+Tu dois produire 5 triangles de suite en utilisant une fonction kotlin qui:
+- prend la hauteur en paramètre
+- renvoie une **String** avec le triangle
+
+```kotlin
+fun triangle(hauteur : Int) : String {
+    return "TODO"
+}
+```
+Utilise cette fonction pour faire un main qui affiche 5 triangles de suite de taille 4, 8, 10 et 100.
+
 ### Exercice librairie JSOUP
 
 Tu dois créer un projet Kotlin au format Maven dont le nom est DemoJSoup.
 
 Tu dois inclure JSoup dans les dépendances de ton projet dans le pom.xml.
 
-Tu dois créer une classe exécutable appelée **SuperDuperDemo.kt**. Dedans tu copieras un des exemples que tu trouves sur la page de JSOUP [https://jsoup.org/](https://jsoup.org/) et tu démontreras la bonne exécution.
+Tu dois créer une classe exécutable appelée **SuperDuperDemo.kt**. 
+
+Dedans tu copieras un des exemples que tu trouves sur la page de JSOUP [https://jsoup.org/](https://jsoup.org/):
+- les exemples sont en Java
+- tu peux essayer de les traduire en Kotlin
+- tu peux demander à ChatGPT de traduire l'exemple en Kotlin
+- tu peux aussi copier le code de l'exemple en Java et le coller dans un fichier **.kt** dans Intellij, il te proposera de traduire pour toi.
+
+Démontre la bonne exécution de ton programme.
 
 ## Défi de la semaine (optionnel)
 
