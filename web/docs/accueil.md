@@ -29,19 +29,23 @@ Lis les règles concernant le plagiat et les sanctions **[ici](https://info.cege
 
 Tu as du travail préparatoire pour découvrir la matière par toi-même (page Web à lire, vidéo, exercices) pour environ 2 heures de travail.
 
-Pendant la séance, tu dois compléter et valider tes exercices, poser des questions et compléter ton TP.
+Pendant les séances en classe ...
+- Discussion sur le contenu
+- Démos supplémentaires 
+- Exercices
+- Travaux personnels (TP)
 
 :::
 
-:::info Installation à la maison
+:::info Installation
 
-À la maison, vous devez installer **[JDK](https://aws.amazon.com/fr/corretto/)** et l'environnement de développement **[Intellij IDEA](https://www.jetbrains.com/fr-fr/idea/)**
+Pour l'installation au collège, nous ferons une démo du [script](https://github.com/departement-info-cem/scripts-mobile/blob/main/installation-mobile.ps1)
 
-Pour Android, vous aurez besoin de **[Android Studio](https://developer.android.com/studio)**.
-
-Problèmes courants et solutions **[ICI](solutions)**
-
-Démonstrations du cours / Github **[ICI](https://github.com/departement-info-cem/3N5-Prog3)**
+Pour l'installation à la maison:
+- installer [Intellij community edition](https://www.jetbrains.com/idea/download/other.html)
+- vous pouvez utilisez jetbrains toolbox pour gérer les IDE jetbrains (Intellij, Android Studio, etc.)
+- vous pouvez poser des questions à votre prof si vous avez des difficultés
+- si vous avez un portable, apportez-le en cours si votre installation ne marche pas
 
 :::
 

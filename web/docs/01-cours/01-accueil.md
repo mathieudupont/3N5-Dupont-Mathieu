@@ -16,10 +16,6 @@ hide_table_of_contents: true
 - Kotlin comme langage, Android comme plateforme
 - Plan de cours et logistique
 
-</Column>
-
-<Column>
-
 ## Évaluations et date
 
 - Politique concernant les absences / retards
@@ -29,16 +25,16 @@ hide_table_of_contents: true
 
 <Column>
 
-## Théorie (voir les vidéos)
+## En cours avec le prof (démos)
 
-- Utilisation du script d'installation
-- Installer l'IDE pour Kotlin (Intellij IDEA)
-- Première classe Kotlin
-- Point d'arrêt et débogueur
-- Configuration d'exécution et .idea
-- Ajouter une librairie avec MAVEN
-- Définir une fonction en Kotlin
-- Créer un fork du repo du cours privé pour mettre vos exercices 3N5-NomDeFamille-Prenom
+1. Utilisation du script d'installation
+2. Ouvrir l'IDE pour Kotlin (Intellij IDEA)
+3. Premier projet, première classe Kotlin
+4. Point d'arrêt et débogueur
+5. Configuration d'exécution et .idea
+6. Ajouter une librairie avec gradle
+7. Définir une fonction en Kotlin
+8. Créer un fork du repo du cours privé pour mettre vos exercices 3N5-NomDeFamille-Prenom
 
 </Column>
 
@@ -46,45 +42,18 @@ hide_table_of_contents: true
 
 <Row>
 
-<Column>
-
-
-:::danger Semaine type
-
-Chaque semaine, il y a du travail préparatoire à faire pour découvrir le contenu (page web, vidéos et/ou d'exercices). Cela représente environ 2 heures de travail.
-
-Pendant les séances en classe, il y aura...
-
-- Discussion sur le contenu
-- Démos supplémentaires
-- Exercices
-- Travaux personnels (TP)
-
-:::
-
-</Column>
 
 <Column>
 
-:::tip Vidéos de la matière
+:::tip Contenu pour cette semaine
 
 TODO Video sur premier projet, avec point d'arrêt et arguments
 
-TODO Video sur ajouter une librairie Java dans un projet Kotlin
+[Recette](../recette-ajout-librairie) sur ajouter une librairie Java dans un projet Kotlin en gradle.
 
 :::
 
-:::tip Installation
 
-Pour l'installation au collège, nous ferons une démo du [script](https://github.com/departement-info-cem/scripts-mobile/blob/main/installation-mobile.ps1)
-
-Pour l'installation à la maison:
-- installer [Intellij community edition](https://www.jetbrains.com/idea/download/other.html)
-- vous pouvez utilisez jetbrains toolbox pour gérer les IDE jetbrains (Intellij, Android Studio, etc.)
-- vous pouvez poser des questions à votre prof si vous avez des difficultés
-- si vous avez un portable, apportez-le en cours si votre installation ne marche pas
-
-:::
 
 </Column>
 
@@ -114,13 +83,7 @@ Créer 2 classes exécutables (avec un main qui suit la convention Kotlin). La p
 
 La deuxième classe exécutable s'appelle **PrenomDuProf.kt** et affiche "Salut prénom du prof" à l'exécution.
 
-### Exercice TraceManuelle
-
-TODO faire un exo avec du code, dire quelle ligne s'exécute dans quel ordre et quels affichages se font en console.
-
-```kotlin
-
-```
+N'OUBLIE PAS DE FAIRE UN COMMIT DANS TON REPO AVEC L"EXERCICE PUIS DE FAIRE UN PUSH.
 
 ### Exercice Triangle
 
@@ -138,6 +101,8 @@ Indications
 - La méthode qui permet de transformer une chaîne de caractères en entier est une méthode statique de la classe Integer.
 - Pour afficher un caractère sans sauter de ligne, print()
 
+N'OUBLIE PAS DE FAIRE UN COMMIT DANS TON REPO AVEC L"EXERCICE PUIS DE FAIRE UN PUSH.
+
 ### Exercice Triangles
 
 Tu dois produire 5 triangles de suite en utilisant une fonction kotlin qui:
@@ -150,6 +115,36 @@ fun triangle(hauteur : Int) : String {
 }
 ```
 Utilise cette fonction pour faire un main qui affiche 5 triangles de suite de taille 4, 8, 10 et 100.
+
+N'OUBLIE PAS DE FAIRE UN COMMIT DANS TON REPO AVEC L"EXERCICE PUIS DE FAIRE UN PUSH.
+
+### Exercice TraceManuelle
+
+TODO faire un exo avec du code, dire quelle ligne s'exécute dans quel ordre et quels affichages se font en console.
+
+```kotlin
+fun main() {
+    for (i : Int in 1..1) {
+        for (j : Int in 1..2) {
+            for (k : String in listOf(" pif", "") ) {
+                val b = .1 + .1 + .1
+                val z = (i + j * b / k.length * j).toString() + k
+                println(z + " " + b)
+            }
+        }
+    }
+}
+```
+
+Pour 
+
+### Exercice TraceDebugger
+
+Refaire le même exercice que précédemment, mais en utilisant le débogueur. Tu devras:
+- placer un point d'arrêt
+- évaluer une expression sur un point d'arrêt
+
+Valide que les valeurs que tu trouves sont les mêmes que pour TraceManuelle
 
 ### Exercice librairie JSOUP
 
@@ -166,6 +161,8 @@ Dedans tu copieras un des exemples que tu trouves sur la page de JSOUP [https://
 - tu peux aussi copier le code de l'exemple en Java et le coller dans un fichier **.kt** dans Intellij, il te proposera de traduire pour toi.
 
 Démontre la bonne exécution de ton programme.
+
+N'OUBLIE PAS DE FAIRE UN COMMIT DANS TON REPO AVEC L"EXERCICE PUIS DE FAIRE UN PUSH.
 
 ## Défi de la semaine (optionnel)
 

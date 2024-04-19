@@ -5,7 +5,12 @@ const sidebars = {
   docs: [
     {
       type: "doc",
-      label: "1.1 1.2 - Accueil et TP1",
+      label: "1.1 - Accueil",
+      id: "cours/accueil",
+    },
+    {
+      type: "doc",
+      label: "1.2 - présentation TP1",
       id: "cours/accueil",
     },
     {
