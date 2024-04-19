@@ -135,14 +135,16 @@ fun main() {
     }
 }
 ```
+Dans un fichier appelé **TraceManuelle.md**, tu dois écrire à quoi va ressembler la
+console à la fin de l'exécution du programme.
 
-Pour 
+Finalement tu écriras ce que vaut **b / k.length** à chaque itération.
 
 ### Exercice TraceDebugger
 
 Refaire le même exercice que précédemment, mais en utilisant le débogueur. Tu devras:
 - placer un point d'arrêt
-- évaluer une expression sur un point d'arrêt
+- évaluer une expression sur un point d'arrêt pour savoir combien vaut **b/ k.length** à chaque itération
 
 Valide que les valeurs que tu trouves sont les mêmes que pour TraceManuelle
 
