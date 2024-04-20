@@ -14,10 +14,6 @@ slug: /solutions
 
 Vous ne devez pas avoir d'accent dans le nom de votre usager windows
 
-## Les archetypes maven ne s'affichent pas lors de la création du projet
-
-Essaie **File** > **Invalide caches** > **Invalide and Restart**
-
 ## Les tests ne sont pas débogables (affiche "terminated unexpectedly")
 
 Vous ne devez pas avoir d'accent dans le nom de vos méthodes, de votre package et de votre projet

@@ -8,7 +8,7 @@ hide_table_of_contents: true
 
 ## Contenu
 
-- Demo de Maven Repository: librairie, version et pom.xml
+- Demo de MavenRepository: librairie, version et pom.xml
 - Librairies Java dans Kotlin (bcp de librairies en Java)
 - 100% interoperability
 - Exemple de recherche de librairie : exemple de [https://square.github.io](https://square.github.io)
