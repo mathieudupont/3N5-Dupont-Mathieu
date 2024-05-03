@@ -15,7 +15,12 @@ const sidebars = {
     },
     {
       type: "doc",
-      label: "2.1 2.2 - Impératif",
+      label: "2.1 - Impératif",
+      id: "cours/imperatif",
+    },
+    {
+      type: "doc",
+      label: "2.2 - Impératif",
       id: "cours/imperatif",
     },
     {
@@ -49,6 +54,11 @@ const sidebars = {
       type: "doc",
       label: "6.1 - Intro Android",
       id: "cours/intro-android",
+    },
+    {
+      type: "doc",
+      label: "6.2 - Activités",
+      id: "cours/activites",
     },
     {
       type: "doc",
