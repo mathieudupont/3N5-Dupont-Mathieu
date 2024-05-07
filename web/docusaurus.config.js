@@ -1,9 +1,11 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
+import { themes } from 'prism-react-renderer';
 
 import { themes } from "prism-react-renderer";
 
 const siteConfig = require("./config");
+
 
 const lightCodeTheme = themes.vsLight;
 const darkCodeTheme = themes.vsDark;
