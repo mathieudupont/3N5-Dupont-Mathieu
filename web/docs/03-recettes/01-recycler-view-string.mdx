@@ -93,8 +93,10 @@ TODO : Mettre à jour le lien vers le code après avoir mergé la branche a24-ko
       ```kotlin
       class MonAdapter {
 
-        // binding nous permet d'accéder à tout le champs de notre layout mon_item.xml
+        // binding nous permet d'accéder à tous les champs de notre layout mon_item.xml
         inner class MonItemViewHolder(private val binding: MonItemBinding) : RecyclerView.ViewHolder(binding.root) {
+            // Cette méthode est appelée pour mettre à jour le contenu de l'élément
+            // Lorsqu'on voudra réagir à un clic sur un élément, on ajoutera un OnClickListener ici
             fun bind(item: String) {
                 binding.tvElement.text = item // On affiche l'élément dans le TextView
             }
@@ -182,8 +184,10 @@ TODO : Mettre à jour le lien vers le code après avoir mergé la branche a24-ko
       ```kotlin
       class MonAdapter : ListAdapter<String, MonAdapter.MonItemViewHolder>(MonItemDiffCallback) {
 
-        // binding nous permet d'accéder à tout le champs de notre layout mon_item.xml
+        // binding nous permet d'accéder à tous les champs de notre layout mon_item.xml
         inner class MonItemViewHolder(private val binding: MonItemBinding) : RecyclerView.ViewHolder(binding.root) {
+          // Cette méthode est appelée pour mettre à jour le contenu de l'élément
+          // Lorsqu'on voudra réagir à un clic sur un élément, on ajoutera un OnClickListener ici
           fun bind(item: String) {
             binding.tvElement.text = item // On affiche l'élément dans le TextView
           }

@@ -166,8 +166,10 @@ TODO : Mettre à jour le lien vers le code après avoir mergé la branche a24-ko
       ```kotlin
       class PersonneAdapter {
 
-          // binding nous permet d'accéder à tout le champs de notre layout personne_item.xml
+          // binding nous permet d'accéder à tous les champs de notre layout personne_item.xml
           inner class PersonneItemViewHolder(private val binding: PersonneItemBinding) : RecyclerView.ViewHolder(binding.root) {
+              // Cette méthode est appelée pour mettre à jour le contenu de l'élément
+              // Lorsqu'on voudra réagir à un clic sur un élément, on ajoutera un OnClickListener ici
               fun bind(personne: Personne) {
                   binding.tvPrenom.text = personne.prenom
                   binding.tvNom.text = personne.nom
@@ -261,8 +263,10 @@ TODO : Mettre à jour le lien vers le code après avoir mergé la branche a24-ko
       ```kotlin
       class PersonneAdapter : ListAdapter<Personne, PersonneAdapter.PersonneItemViewHolder>(PersonneItemDiffCallback) {
 
-          // binding nous permet d'accéder à tout le champs de notre layout personne_item.xml
+          // binding nous permet d'accéder à tous les champs de notre layout personne_item.xml
           inner class PersonneItemViewHolder(private val binding: PersonneItemBinding) : RecyclerView.ViewHolder(binding.root) {
+              // Cette méthode est appelée pour mettre à jour le contenu de l'élément
+              // Lorsqu'on voudra réagir à un clic sur un élément, on ajoutera un OnClickListener ici
               fun bind(personne: Personne) {
                   binding.tvPrenom.text = personne.prenom
                   binding.tvNom.text = personne.nom

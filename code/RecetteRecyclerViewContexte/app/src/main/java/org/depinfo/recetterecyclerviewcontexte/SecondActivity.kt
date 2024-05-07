@@ -1,5 +1,6 @@
 package org.depinfo.recetterecyclerviewcontexte
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import org.depinfo.recetterecyclerviewcontexte.databinding.ActivitySecondBinding
@@ -14,5 +15,8 @@ class SecondActivity : AppCompatActivity() {
 
         val monExtra = intent.getStringExtra("monExtra")
         binding.tvMonExtra.text = monExtra
+
+        val i = Intent(this, MainActivity::class.java)
+        startActivity(i)
     }
 }

@@ -8,13 +8,6 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/btn_snack"
-        android:text="Barre tendre"
-        android:layout_marginEnd="16dp"/>
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:id="@+id/btn_activity"
         android:text="Activité"
         android:layout_marginEnd="16dp"/>
