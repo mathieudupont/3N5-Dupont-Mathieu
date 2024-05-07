@@ -4,7 +4,7 @@ description: Tests unitaires
 hide_table_of_contents: true
 ---
 
-# Semaine 12 - 13 : Tests automatisés / unitaires
+# Tests automatisés / unitaires
 
 ## Contenu
 

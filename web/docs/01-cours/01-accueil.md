@@ -1,10 +1,10 @@
 ---
 title: Accueil
-description: Accueil et intro à Java
+description: Accueil et intro à Kotlin
 hide_table_of_contents: true
 ---
 
-# Semaine 1 : Introduction à Java et environnement de développement
+# Intro à Kotlin et environnement de développement
 
 <Row>
 
@@ -13,29 +13,28 @@ hide_table_of_contents: true
 ## Contenu
 
 - Application : architecture, exceptions, robustesse et tests automatisés
-- Java comme langage, Android comme plateforme
-  Plan de cours et logistique
-
-</Column>
-
-<Column>
+- Kotlin comme langage, Android comme plateforme
+- Plan de cours et logistique
 
 ## Évaluations et date
 
-- Politique concernant les absences non justifiées
+- Politique concernant les absences / retards
 - Politique concernant le plagiat
 
 </Column>
 
 <Column>
 
-## Théorie (voir les vidéos)
+## En cours avec le prof (démos)
 
-- Installer l'IDE pour Java (Intellij IDEA)
-- Première classe Java
-- Point d'arrêt et débogueur
-- Configuration d'exécution et .idea
-- Ajouter une librairie dans MAVEN
+1. Utilisation du script d'installation
+2. Ouvrir l'IDE pour Kotlin (Intellij IDEA)
+3. Premier projet, première classe Kotlin
+4. Point d'arrêt et débogueur
+5. Configuration d'exécution et .idea
+6. Ajouter une librairie avec gradle
+7. Définir une fonction en Kotlin
+8. Créer un fork du repo du cours privé pour mettre vos exercices 3N5-NomDeFamille-Prenom
 
 </Column>
 
@@ -43,42 +42,18 @@ hide_table_of_contents: true
 
 <Row>
 
-<Column>
-
-:::danger Semaine type
-
-Chaque semaine, il y a du travail préparatoire à faire pour découvrir le contenu (page web, vidéos et/ou d'exercices). Cela représente environ 2 heures de travail.
-
-Pendant les séances en classe, il y aura...
-
-- Discussion sur le contenu
-- Démos supplémentaires
-- Exercices
-- Travaux personnels (TP)
-
-:::
-
-</Column>
 
 <Column>
 
-:::tip Vidéos de la matière
+:::tip Contenu pour cette semaine
 
-<Video url="https://youtu.be/mu2-0jfpmxc"/>
+TODO Video sur premier projet, avec point d'arrêt et arguments
 
-<Video url="https://youtu.be/UsdhEb-7kec"/>
-
-<Video url="https://youtu.be/NHZJdK_6dA8"/>
+[Recette](../recette-ajout-librairie) sur ajouter une librairie Java dans un projet Kotlin en gradle.
 
 :::
 
-:::tip Installation
 
-<Video url="https://youtu.be/b7MgJDd1Iks"/>
-
-<Video url="https://youtu.be/aWd160BjRYE"/>
-
-:::
 
 </Column>
 
@@ -98,13 +73,17 @@ Pendant les séances en classe, il y aura...
 
 :::note Exercices
 
-### Exercice Bonjour Java
+TODO utiliser ChatGPT pour traduire de C# à kotlin.
 
-Tu dois créer un projet Java au format Maven dont le nom de package de base est **org.nomdefamille.demo** en changeant le nom de famille.
+### Exercice Bonjour Kotlin
 
-Créer 2 classes exécutables (avec un main qui suit la convention Java). La première s'appelle **NomDeFamille.java** et affiche "Bonjour Nom de famille" à l'exécution.
+Tu dois créer un projet Kotlin au format gradle dont le nom de package de base est **org.nomdefamille.demo** en changeant le nom de famille.
 
-La deuxième classe exécutable s'appelle **PrenomDuProf.java** et affiche "Salut prénom du prof" à l'exécution.
+Créer 2 classes exécutables (avec un main qui suit la convention Kotlin). La première s'appelle **NomDeFamille.java** et affiche "Bonjour Nom de famille" à l'exécution.
+
+La deuxième classe exécutable s'appelle **PrenomDuProf.kt** et affiche "Salut prénom du prof" à l'exécution.
+
+N'OUBLIE PAS DE FAIRE UN COMMIT DANS TON REPO AVEC L"EXERCICE PUIS DE FAIRE UN PUSH.
 
 ### Exercice Triangle
 
@@ -120,24 +99,83 @@ Reproduisez un triangle en prenant sa hauteur par un argument de ligne de comman
 Indications
 
 - La méthode qui permet de transformer une chaîne de caractères en entier est une méthode statique de la classe Integer.
-- Pour afficher un caractère sans sauter de ligne, System.out.print()
+- Pour afficher un caractère sans sauter de ligne, print()
+
+N'OUBLIE PAS DE FAIRE UN COMMIT DANS TON REPO AVEC L"EXERCICE PUIS DE FAIRE UN PUSH.
+
+### Exercice Triangles
+
+Tu dois produire 5 triangles de suite en utilisant une fonction kotlin qui:
+- prend la hauteur en paramètre
+- renvoie une **String** avec le triangle
+
+```kotlin
+fun triangle(hauteur : Int) : String {
+    return "TODO"
+}
+```
+Utilise cette fonction pour faire un main qui affiche 5 triangles de suite de taille 4, 8, 10 et 100.
+
+N'OUBLIE PAS DE FAIRE UN COMMIT DANS TON REPO AVEC L"EXERCICE PUIS DE FAIRE UN PUSH.
+
+### Exercice TraceManuelle
+
+TODO faire un exo avec du code, dire quelle ligne s'exécute dans quel ordre et quels affichages se font en console.
+
+```kotlin
+fun main() {
+    for (i : Int in 1..1) {
+        for (j : Int in 1..2) {
+            for (k : String in listOf(" pif", "") ) {
+                val b = .1 + .1 + .1
+                val z = (i + j * b / k.length * j).toString() + k
+                println(z + " " + b)
+            }
+        }
+    }
+}
+```
+Dans un fichier appelé **TraceManuelle.md**, tu dois écrire à quoi va ressembler la
+console à la fin de l'exécution du programme.
+
+Finalement tu écriras ce que vaut **b / k.length** à chaque itération.
+
+### Exercice TraceDebugger
+
+Refaire le même exercice que précédemment, mais en utilisant le débogueur. Tu devras:
+- placer un point d'arrêt
+- évaluer une expression sur un point d'arrêt pour savoir combien vaut **b/ k.length** à chaque itération
+
+Valide que les valeurs que tu trouves sont les mêmes que pour TraceManuelle
 
 ### Exercice librairie JSOUP
 
-Tu dois créer un projet Java au format Maven dont le nom est DemoJSoup.
+Tu dois créer un projet Kotlin au format gradle dont le nom est DemoJSoup.
 
 Tu dois inclure JSoup dans les dépendances de ton projet dans le pom.xml.
 
-Tu dois créer une classe exécutable appelée **SuperDuperDemo.java**. Dedans tu copieras un des exemples que tu trouves sur la page de JSOUP [https://jsoup.org/](https://jsoup.org/) et tu démontreras la bonne exécution.
+Tu dois créer une classe exécutable appelée **SuperDuperDemo.kt**. 
 
-## Défi semaine 1 (optionnel)
+Dedans tu copieras un des exemples que tu trouves sur la page de JSOUP [https://jsoup.org/](https://jsoup.org/):
+- les exemples sont en Java
+- tu peux essayer de les traduire en Kotlin
+- tu peux demander à ChatGPT de traduire l'exemple en Kotlin
+- tu peux aussi copier le code de l'exemple en Java et le coller dans un fichier **.kt** dans Intellij, il te proposera de traduire pour toi.
+
+Démontre la bonne exécution de ton programme.
+
+N'OUBLIE PAS DE FAIRE UN COMMIT DANS TON REPO AVEC L"EXERCICE PUIS DE FAIRE UN PUSH.
+
+## Défi de la semaine (optionnel)
 
 ### Exercice UnUn
 
-Tu dois programmer une méthode qui transforme une String en une autre String:
+Tu dois programmer une méthode en Kotlin qui transforme une String en une autre String:
 
-```java
-static String unUn(String source){}
+```kotlin
+fun unUn(source: String): String{
+    TODO()
+}
 ```
 
 Par exemple, si la source est "111213", on compte le nombre de chiffres identiques
@@ -153,8 +191,10 @@ Le résultat de "111213" serait donc "31121113"
 
 Tu programmes une méthode qui affiche une séquence de _n_ String partant du paramètre source.
 
-```java
-static void sequence(String source, int longueur){}
+```kotlin
+fun sequence(source: String, longueur: Int): List<String>{
+    TODO()
+}
 ```
 
 Par exemple, pour **sequence("1", 6)** donne

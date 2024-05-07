@@ -4,9 +4,11 @@ description: Base de données (Room)
 hide_table_of_contents: true
 ---
 
-# Semaine 10 - 11 : Android : persister des données avec Room / SQLite
+# Android : persister des données avec Room / SQLite
 
 ## Contenu
+
+CODE FOURNI POUR LE TP3
 
 Nous ferons quelques exemples pour revenir sur le code fourni.
 

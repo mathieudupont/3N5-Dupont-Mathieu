@@ -4,7 +4,7 @@ description: Service et modèle
 hide_table_of_contents: true
 ---
 
-# Semaine 12 : Modèle (entités) et service (actions)
+# Modèle (entités) et service (actions)
 
 ## Contenu
 

@@ -4,7 +4,7 @@ description: Librairies Android
 hide_table_of_contents: true
 ---
 
-# Semaine 14 : Librairies Android
+# Librairies Android
 
 ## Contenu
 

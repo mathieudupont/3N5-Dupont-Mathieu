@@ -4,9 +4,13 @@ description: Intro et mise en page
 hide_table_of_contents: true
 ---
 
-# Semaine 7 : Introduction à Android, mise en page
+# Introduction à Android, mise en page
 
 ## Contenu
+
+TODO video : 
+- refaire tape le lapin en kotlin (avec view binding, )
+- refaire mise en page en kotlin
 
 Nous ferons quelques exemples d'applications pour revenir sur les éléments couverts dans la video.
 

@@ -4,17 +4,34 @@ description: Librairies standard
 hide_table_of_contents: true
 ---
 
-# Semaines 3 - 4 : Java, librairie standard
+# Kotlin, librairie standard
 
 ## Contenu
 
-Exemple de Map sur une classe que nous allons définir nous même pour hashCode et equals
+TODO on oublie hashcode et equals
+TODO on parle de collection mutable / pas mutable
+TODO on parle de set et list  Thème collection
+TODO on parle de fichiers écriture et lecture fichiers texte
 
 <Row>
 
 <Column>
 
 :::danger Avant la séance (2h)
+
+Explication en profondeur mutalibilité et immutabilité.
+
+Kotlin peut utiliser 
+- les librairies Java incluant tout le contenu de la librairie standard exemple java.util.List
+- la librairie standard de Kotlin qui est une surcouche de la librairie Java https://kotlinlang.org/api/latest/jvm/stdlib/
+
+Une liste mutable peut faire tout ce que peut faire une liste immutables, alors:
+- pourquoi la immutables existe?
+- pourquoi on recommande d'utiliser le plus possible des collection immutables?
+
+Sources:
+- https://web.mit.edu/6.005/www/fa15/classes/09-immutability/#:~:text=The%20answer%20is%20that%20immutable,much%20harder%20to%20enforce%20contracts.
+- https://kt.academy/article/ek-mutability
 
 1. La source la plus importante de documentation sur la librairie standard est le javadoc. Parcourez une ou deux pages en partant de **[javadoc](https://docs.oracle.com/javase/7/docs/api/)** (max 20 minutes).
 2. Lire le javadoc de la classe **[Set](https://docs.oracle.com/javase/7/docs/api/java/util/Set.html)** (max 10 minutes).
