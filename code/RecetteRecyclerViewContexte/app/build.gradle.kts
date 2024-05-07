@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "org.depinfo.demorecyclerviewcontexte"
+    namespace = "org.depinfo.recetterecyclerviewcontexte"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "org.depinfo.demorecyclerviewcontexte"
+        applicationId = "org.depinfo.recetterecyclerviewcontexte"
         minSdk = 26
         targetSdk = 34
         versionCode = 1

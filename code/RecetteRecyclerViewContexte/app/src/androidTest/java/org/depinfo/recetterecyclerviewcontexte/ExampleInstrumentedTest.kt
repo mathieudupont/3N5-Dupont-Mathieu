@@ -1,4 +1,4 @@
-package org.depinfo.demorecyclerviewcontexte
+package org.depinfo.recetterecyclerviewcontexte
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("org.depinfo.demorecyclerviewcontexte", appContext.packageName)
+        assertEquals("org.depinfo.recetterecyclerviewcontexte", appContext.packageName)
     }
 }

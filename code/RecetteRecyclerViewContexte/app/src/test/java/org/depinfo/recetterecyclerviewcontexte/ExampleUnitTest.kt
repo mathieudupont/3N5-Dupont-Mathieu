@@ -1,4 +1,4 @@
-package org.depinfo.demorecyclerviewcontexte
+package org.depinfo.recetterecyclerviewcontexte
 
 import org.junit.Test
 

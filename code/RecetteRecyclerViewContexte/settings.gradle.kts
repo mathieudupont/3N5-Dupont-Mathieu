@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "DemoRecyclerViewContexte"
+rootProject.name = "RecetteRecyclerViewContexte"
 include(":app")
  

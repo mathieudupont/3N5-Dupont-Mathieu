@@ -36,6 +36,6 @@ class MainActivity : AppCompatActivity() {
         for (i in 1..10000) {
             items.add("Item #$i")
         }
-        adapter.submitList(items) // À chaque fois qu'on veut changer ce qui est dans la liste, on utilise submitList de l'adapteur
+        adapter.submitList(items) // Pour changer le contenu de la liste, utiliser submitList de l'adapteur
     }
 }

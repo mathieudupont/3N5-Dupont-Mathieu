@@ -6,7 +6,7 @@ hide_table_of_contents: true
 
 Étapes de mise en place d'un `RecyclerView` qui gère une liste de `String` sur un projet existant.
 
-Le code de cette recette est disponible [ici](https://github.com/departement-info-cem/3N5-Prog3/tree/a24-kotlin/code/RecetteRecyclerView).
+Le code de cette recette est disponible [ici](https://github.com/departement-info-cem/3N5-Prog3/tree/a24-kotlin/code/RecetteRecyclerViewString).
 
 TODO : Mettre à jour le lien vers le code après avoir mergé la branche a24-kotlin
 
@@ -229,12 +229,12 @@ TODO : Mettre à jour le lien vers le code après avoir mergé la branche a24-ko
         tools:context=".MainActivity">
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rvPersonneAdapter"
+            android:id="@+id/rv_mon_adapter"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
             app:spanCount="1"
-            tools:listitem="@layout/personne_item" />
+            tools:listitem="@layout/mon_item" />
     </LinearLayout>
     ```
 
@@ -278,12 +278,12 @@ TODO : Mettre à jour le lien vers le code après avoir mergé la branche a24-ko
         }
 
         private fun setupRecycler() {
-          adapter = PersonneAdapter() // Créer l'adapteur
-          binding.rvPersonneAdapter.adapter = adapter // Assigner l'adapteur au RecyclerView
-          binding.rvPersonneAdapter.setHasFixedSize(true) // Option pour améliorer les performances
-          binding.rvPersonneAdapter.addItemDecoration( // Ajouter un séparateur entre chaque élément
+          adapter = MonAdapter() // Créer l'adapteur
+          binding.rvMonAdapter.adapter = adapter // Assigner l'adapteur au RecyclerView
+          binding.rvMonAdapter.setHasFixedSize(true) // Option pour améliorer les performances
+          binding.rvMonAdapter.addItemDecoration( // Ajouter un séparateur entre chaque élément
               DividerItemDecoration(
-                  binding.rvPersonneAdapter.context, DividerItemDecoration.VERTICAL
+                  binding.rvMonAdapter.context, DividerItemDecoration.VERTICAL
               )
           )
         }
