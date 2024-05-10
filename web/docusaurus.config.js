@@ -1,11 +1,12 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
-import { themes } from 'prism-react-renderer';
+
+import { themes } from "prism-react-renderer";
 
 const siteConfig = require("./config");
 
-const lightCodeTheme = themes.vsLight
-const darkCodeTheme = themes.vsDark
+const lightCodeTheme = themes.vsLight;
+const darkCodeTheme = themes.vsDark;
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -61,7 +62,7 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "cours/rencontre1.1",
+            docId: "cours/accueil",
             position: "left",
             label: "Cours",
           },
@@ -70,6 +71,17 @@ const config = {
             position: "left",
             sidebarId: "tp",
             label: "Travaux Pratiques",
+          },
+          {
+            type: "docSidebar",
+            position: "left",
+            sidebarId: "recettes",
+            label: "Recettes",
+          },
+          {
+            label: "Scripts Installation",
+            href: `https://raw.githubusercontent.com/departement-info-cem/scripts-mobile/main/installation-mobile.ps1`,
+            position: "right",
           },
         ],
       },
@@ -82,6 +94,14 @@ const config = {
               {
                 label: "GitHub",
                 href: `https://github.com/departement-info-cem/${siteConfig.nomUrl}`,
+              },
+            ],
+          },
+          {
+            items: [
+              {
+                label: "Département d'informatique",
+                href: `https://info.cegepmontpetit.ca/accueil`,
               },
             ],
           },
@@ -101,7 +121,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-        additionalLanguages: ["csharp", "java", "dart"],
+        additionalLanguages: ["csharp", "java", "dart", "kotlin"],
       },
       metadata: [
         {

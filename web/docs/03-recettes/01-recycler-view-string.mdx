@@ -1,0 +1,333 @@
+---
+hide_table_of_contents: true
+---
+
+# RecyclerView - String
+
+Étapes de mise en place d'un `RecyclerView` qui gère une liste de `String` sur un projet existant.
+
+Le code de cette recette est disponible [ici](https://github.com/departement-info-cem/3N5-Prog3/tree/a24-kotlin/code/RecetteRecyclerViewString).
+
+TODO : Mettre à jour le lien vers le code après avoir mergé la branche a24-kotlin
+
+<Tabs queryString="recette-string">
+  <TabItem value="build.gradle.kts" label="build.gradle.kts">
+
+    Nous allons utiliser le [ViewBinding](https://developer.android.com/topic/libraries/view-binding#kts) pour la suite des choses. Assurez vous qu'il est activé dans votre fichier `build.gradle.kts`.
+
+    ```kotlin
+    android {
+      ...
+      buildFeatures {
+        viewBinding = true
+      }
+    }
+    ```
+
+  </TabItem>
+  <TabItem value="mon_item.xml" label="mon_item.xml">
+    L'interface graphique de chaque item à afficher dans la liste est définie dans un fichier `xml`, comme c'est le cas pour les fichiers `xml` qui sont utilisés pour définir l'interface graphique.
+
+    <Row>
+
+    <Column size="7" >
+
+    Dans l'explorateur de projet, créez un nouveau fichier `Layout Resource File` dans le dossier `res/layout`.
+
+    ![Create item xml](_01-recycler-view-string/create_item_xml.png)
+
+    </Column>
+
+    <Column size="5" >
+
+    Nommez le fichier `mon_item.xml`. Dans `Root element`, choisissez `LinearLayout`.
+
+    ![Create item xml 2](_01-recycler-view-string/create_item_xml2.png)
+
+    </Column>
+
+    </Row>
+
+    Il faudra personnaliser votre fichier en fonction de ce que vous voulez afficher sur chaque élément de liste.
+
+    - Assignez des `id` aux éléments avec lesquels vous allez interagir.
+    - Attention à la hauteur de chaque élément. Ils doivent tous avoir une hauteur fixe ou une hauteur définie en fonction de leur contenu (`wrap_content`).
+
+    Voici un exemple de fichier `mon_item.xml` si on souhaite afficher une `String` dans un `TextView` :
+
+    ```xml
+    <?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvElement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Salut Salut!"
+            android:textSize="24sp" />
+    </LinearLayout>
+    ```
+
+  </TabItem>
+  <TabItem value="MonAdapter.kt" label="MonAdapter.kt">
+
+    Vous allez créer une classe qui est responsable de la gestion de **TOUT** les éléments de la liste et de leur mise à jour.
+    En Android, ce type est classe est appelée un **[Adapter](https://developer.android.com/reference/kotlin/android/widget/Adapter)**.
+
+    Créez une nouvelle classe `MonAdapter.kt` dans un package `adapters` que vous devez aussi créer dans votre projet.
+
+    ![Recette créer mon adapter](_01-recycler-view-string/recette_creer_mon_adapter.png)
+
+    <details>
+      <summary>ViewHolder</summary>
+
+      Dans la classe `MonAdapter`, vous devez définir une classe interne, qui sera responsable de gérer le contenu affiché dans **UN SEUL** élément de la liste.
+      Cette classe est appelée un **[ViewHolder](https://developer.android.com/reference/kotlin/androidx/recyclerview/widget/RecyclerView.ViewHolder)**.
+      Cette classe ressemble en quelque sorte à une classe d'**Activité**.
+
+      ```kotlin
+      class MonAdapter {
+
+        // binding nous permet d'accéder à tous les champs de notre layout mon_item.xml
+        inner class MonItemViewHolder(private val binding: MonItemBinding) : RecyclerView.ViewHolder(binding.root) {
+            // Cette méthode est appelée pour mettre à jour le contenu de l'élément
+            // Lorsqu'on voudra réagir à un clic sur un élément, on ajoutera un OnClickListener ici
+            fun bind(item: String) {
+                binding.tvElement.text = item // On affiche l'élément dans le TextView
+            }
+        }
+      }
+      ```
+    </details>
+
+    <details>
+      <summary>DiffCallback</summary>
+
+      Pour que l'`Adapter` sache quels éléments d'une liste doivent être affichés lorsqu'on la modifie, on doit définir un objet qui implémente la classe abstraite **[DiffUtil.ItemCallback](https://developer.android.com/reference/androidx/recyclerview/widget/DiffUtil.ItemCallback)**.
+
+      Nous vous recommandons de définir cet objet dans le même fichier que votre `Adapter`, mais à l'extérieur de la classe `MonItemAdapter`.
+
+      ```kotlin
+      class MonItemAdapter {
+          // ...
+      }
+
+      object MonItemDiffCallback : DiffUtil.ItemCallback<String>() {
+          override fun areItemsTheSame(oldItem: String, newItem: String): Boolean {
+              return oldItem == newItem
+          }
+
+          override fun areContentsTheSame(oldItem: String, newItem: String): Boolean {
+              return oldItem == newItem
+          }
+      }
+      ```
+    </details>
+
+    <details>
+      <summary>ListAdapter</summary>
+
+      Afin d'accéder aux outils de gestion de liste fournis par Android, vous devez étendre la classe **[ListAdapter](https://developer.android.com/reference/androidx/recyclerview/widget/ListAdapter)**.
+
+      La classe a besoin du **ViewHolder** et du **DiffCallback** que vous avez défini précédemment.
+
+      ```kotlin
+      class MonAdapter : ListAdapter<String, MonAdapter.MonItemViewHolder>(MonItemDiffCallback) {
+          // ...
+      }
+      ```
+
+      À ce point ci, votre environnement de développement devrait vous indiquer des erreurs.
+      C'est normal, car vous n'avez pas encore implémenté les méthodes requises par la classe ListAdapter.
+
+      Pour corriger cette erreur, vous pouvez placer votre curseur sur l'erreur, et cliquer sur "Implement members", qui va générer les méthodes.
+      Dans la prochaine étape, nous allons remplir ces méthodes.
+
+      ![Implementer ListAdapter](_01-recycler-view-string/implementer_listadapter.png)
+    </details>
+
+    <details>
+      <summary>onCreateViewHolder</summary>
+
+      La méthode `onCreateViewHolder` est appelée lorsqu'un nouvel élément de la liste doit être affiché.
+
+      ```kotlin
+      override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MonItemViewHolder {
+        val binding: MonItemBinding = MonItemBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+        return MonItemViewHolder(binding)
+      }
+      ```
+    </details>
+
+    <details>
+      <summary>onBindViewHolder</summary>
+
+      La méthode `onBindViewHolder` est appelée lorsqu'un élément de la liste doit être mis à jour.
+
+      ```kotlin
+      override fun onBindViewHolder(holder: MonItemViewHolder, position: Int) {
+        holder.bind(getItem(position))
+      }
+      ```
+    </details>
+
+    <details>
+      <summary>Résultat</summary>
+
+      Votre fichier MonAdapter.kt devrait maintenant ressembler à ceci :
+
+      ```kotlin
+      class MonAdapter : ListAdapter<String, MonAdapter.MonItemViewHolder>(MonItemDiffCallback) {
+
+        // binding nous permet d'accéder à tous les champs de notre layout mon_item.xml
+        inner class MonItemViewHolder(private val binding: MonItemBinding) : RecyclerView.ViewHolder(binding.root) {
+          // Cette méthode est appelée pour mettre à jour le contenu de l'élément
+          // Lorsqu'on voudra réagir à un clic sur un élément, on ajoutera un OnClickListener ici
+          fun bind(item: String) {
+            binding.tvElement.text = item // On affiche l'élément dans le TextView
+          }
+        }
+
+        override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MonItemViewHolder {
+          val binding: MonItemBinding = MonItemBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+          return MonItemViewHolder(binding)
+        }
+
+        override fun onBindViewHolder(holder: MonItemViewHolder, position: Int) {
+          val item: String = getItem(position)
+          holder.bind(item)
+        }
+
+      }
+
+      object MonItemDiffCallback : DiffUtil.ItemCallback<String>() {
+        override fun areItemsTheSame(oldItem: String, newItem: String): Boolean {
+          return oldItem == newItem
+        }
+
+        override fun areContentsTheSame(oldItem: String, newItem: String): Boolean {
+          return oldItem == newItem
+        }
+      }
+      ```
+    </details>
+
+  </TabItem>
+  <TabItem value="ActivityMain.xml" label="ActivityMain.xml">
+
+    On ajoute le `RecyclerView` dans le fichier `xml` de l'activité.
+
+    ```xml
+    <?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_mon_adapter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:spanCount="1"
+            tools:listitem="@layout/mon_item" />
+    </LinearLayout>
+    ```
+
+  </TabItem>
+  <TabItem value="MainActivity.kt" label="MainActivity.kt">
+
+    <details>
+      <summary>ViewBinding</summary>
+
+      Commencez par mettre en place le ViewBinding dans votre activité.
+
+      ```kotlin
+      class MainActivity : AppCompatActivity() {
+
+        private lateinit var binding: ActivityMainBinding
+
+        override fun onCreate(savedInstanceState: Bundle?) {
+          super.onCreate(savedInstanceState)
+          binding = ActivityMainBinding.inflate(layoutInflater)
+          setContentView(binding.root)
+        }
+      }
+      ```
+    </details>
+
+    <details>
+      <summary>Configurer le RecyclerView</summary>
+
+      Créez une méthode pour lier l'`Adapteur` que nous venons de créer au `RecyclerView`.
+
+      ```kotlin
+      class MainActivity : AppCompatActivity() {
+
+        private lateinit var binding: ActivityMainBinding
+        private lateinit var adapter: MonAdapter
+
+        override fun onCreate(savedInstanceState: Bundle?) {
+          // ...
+
+          setupRecycler()
+        }
+
+        private fun setupRecycler() {
+          adapter = MonAdapter() // Créer l'adapteur
+          binding.rvMonAdapter.adapter = adapter // Assigner l'adapteur au RecyclerView
+          binding.rvMonAdapter.setHasFixedSize(true) // Option pour améliorer les performances
+          binding.rvMonAdapter.addItemDecoration( // Ajouter un séparateur entre chaque élément
+              DividerItemDecoration(
+                  binding.rvMonAdapter.context, DividerItemDecoration.VERTICAL
+              )
+          )
+        }
+      }
+      ```
+    </details>
+
+    <details>
+      <summary>Remplir le RecyclerView</summary>
+
+      Remplissez le recycler view avec 10 000 éléments.
+
+      ```kotlin
+      class MainActivity : AppCompatActivity() {
+
+        private lateinit var binding: ActivityMainBinding
+        private lateinit var adapter: MonAdapter
+
+        override fun onCreate(savedInstanceState: Bundle?) {
+          super.onCreate(savedInstanceState)
+          binding = ActivityMainBinding.inflate(layoutInflater)
+          setContentView(binding.root)
+
+          setupRecycler()
+          fillRecycler()
+        }
+
+        // ...
+
+        private fun fillRecycler() {
+          val items: MutableList<String> = mutableListOf()
+          for (i in 1..10000) {
+              items.add("Item #$i")
+          }
+          adapter.submitList(items) // Pour changer le contenu de la liste, utiliser submitList de l'adapteur
+        }
+      }
+      ```
+
+    </details>
+
+  </TabItem>
+</Tabs>
