@@ -79,15 +79,15 @@ TODO utiliser ChatGPT pour traduire de C# à kotlin.
 
 Tu dois créer un projet Kotlin au format gradle dont le nom de package de base est **org.nomdefamille.demo** en changeant le nom de famille.
 
-Créer 2 classes exécutables (avec un main qui suit la convention Kotlin). La première s'appelle **NomDeFamille.java** et affiche "Bonjour Nom de famille" à l'exécution.
+Créer 2 classes exécutables (avec un main qui suit la convention Kotlin). La première s'appelle **NomDeFamille.kt** et affiche "Bonjour Nom de famille" à l'exécution.
 
 La deuxième classe exécutable s'appelle **PrenomDuProf.kt** et affiche "Salut prénom du prof" à l'exécution.
 
-N'OUBLIE PAS DE FAIRE UN COMMIT DANS TON REPO AVEC L"EXERCICE PUIS DE FAIRE UN PUSH.
+N'OUBLIE PAS DE FAIRE UN COMMIT DANS TON REPO AVEC L'EXERCICE, PUIS DE FAIRE UN PUSH.
 
 ### Exercice Triangle
 
-Reproduisez un triangle en prenant sa hauteur par un argument de ligne de commandes.
+Reproduis un triangle en prenant sa hauteur par un argument de ligne de commandes.
 
 ```
 *
