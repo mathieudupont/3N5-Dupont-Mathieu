@@ -1,0 +1,17 @@
+1.075 pif 0.3
+Infinity 0.3
+1.3 pif 0.3
+Infinity 0.3
+
+0.075
+Infinity
+1.3
+Infinity
+
+
+vrai output :
+
+1.075 pif 0.30000000000000004
+Infinity 0.30000000000000004
+1.3 pif 0.30000000000000004
+Infinity 0.30000000000000004
